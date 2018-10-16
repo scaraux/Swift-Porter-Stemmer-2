@@ -6,5 +6,5 @@ language: swift
 osx_image: xcode9.4
 
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PorterStemmer2.xcworkspace -scheme PorterStemmer2-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PorterStemmer2.xcworkspace -scheme PorterStemmer2-Example -sdk -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.4' ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
