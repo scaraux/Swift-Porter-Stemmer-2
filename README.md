@@ -13,10 +13,10 @@ http://snowball.tartarus.org/index.html
 ## 📦 Installation
 
   
-This project is compatible with macOS, iOS 9 and Swift 4.2
-Swift-PorterStemmer2 is available through [CocoaPods](https://cocoapods.org). To install
+This project is compatible with macOS, iOS 9 and Swift 4.2.
+Swift-PorterStemmer2 is available through [CocoaPods](https://cocoapods.org)
 
-it, simply add the following line to your Podfile: 
+To install it, simply add the following line to your Podfile: 
 
 ```ruby
 
