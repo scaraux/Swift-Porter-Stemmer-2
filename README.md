@@ -1,9 +1,6 @@
-# Porter-Stemmer-2 (Swift)
-
+# PorterStemmer2 (Swift)
  
-A Swift wrapper over the **Porter Stemmer 2** stemming algorithm, using the official C-ANSI **libstemmer** library.
-
-This offers stemming with every language supported by the libstemmer library and its algorithms.
+A Swift wrapper over the **Porter Stemmer 2** stemming algorithm, using the official C-ANSI **libstemmer** library. This offers stemming with every language supported by the libstemmer library and its algorithms.
 
 For more info, visit :
 
@@ -13,22 +10,10 @@ http://snowball.tartarus.org/index.html
 ***NOTE*** : This first version does not include tests, feel free to implement and submit PR !
   
 
-## 📲 Example
-
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-  
-
-## 📋 Requirements
-
-  
-PorterStemmer2 is compatible with macOS, iOS 9 and Swift 4.
-
-
 ## 📦 Installation
 
   
+This project is compatible with macOS, iOS 9 and Swift 4.2
 Swift-PorterStemmer2 is available through [CocoaPods](https://cocoapods.org). To install
 
 it, simply add the following line to your Podfile: 
