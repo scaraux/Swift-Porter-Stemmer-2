@@ -17,6 +17,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
+    "ios": "9.0",
     "osx": "10.10"
   },
   "source_files": "PorterStemmer2/Classes/**/*"

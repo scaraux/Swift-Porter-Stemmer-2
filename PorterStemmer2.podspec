@@ -23,8 +23,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Oscar Gotting' => 'gottingoscar@gmail.com' }
   s.source           = { :git => 'https://github.com/scaraux/Swift-Porter-Stemmer-2.git', :tag => s.version.to_s }
 
-  s.platform = :osx
-  s.osx.deployment_target = "10.10"
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'PorterStemmer2/Classes/**/*'
+  
 end

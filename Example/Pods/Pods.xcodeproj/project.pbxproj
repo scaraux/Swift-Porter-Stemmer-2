@@ -7,334 +7,484 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0644F535171E9F183E5996344DD033A7 /* stem_UTF_8_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD89E6E52151808E4882252487D2F2 /* stem_UTF_8_danish.c */; };
-		0C0C14215624686BB1FB03D3D811E1C7 /* stem_ISO_8859_1_french.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAFDEAEA33E83C14651E9A498A50776 /* stem_ISO_8859_1_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E5E39E1A58E6225C68B68A16423D9D4 /* stem_ISO_8859_1_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7FC4C8C684AB713B34A94329D594DA /* stem_ISO_8859_1_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11218D2F7E226AD0F57DF1EDB9176D98 /* stem_KOI8_R_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = DF4F5180FFD3674CF85FC1D68A252381 /* stem_KOI8_R_russian.c */; };
-		132C9D32D3648F6837C149B7458250B0 /* stem_ISO_8859_1_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 4817EC4C57EFD34509D94FFCD29E60A6 /* stem_ISO_8859_1_french.c */; };
-		140E0E7EDDD4E5E271A9C826B13A1992 /* stem_ISO_8859_1_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = A8A8896FDC3D7675593B755EA96A6471 /* stem_ISO_8859_1_swedish.c */; };
-		167A5930258E5368C546A152D6C84873 /* stem_UTF_8_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = DF23FBEF31AACCD157C79C203BB1C48E /* stem_UTF_8_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E22B2B73B29EDFA5ABD19D2A7447D9 /* utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 30E9B0E8B3AA8466D8BCE3985FD472F9 /* utilities.c */; };
-		193A3E12B5EC3A203EB71934163C57D1 /* stem_UTF_8_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = AE606726E36DD5B5E3327936BC815DF0 /* stem_UTF_8_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		196FBFBB4E35F3700B3B6F31B3587B52 /* stem_UTF_8_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D502AA4C3877FEC2B0968432D9D112 /* stem_UTF_8_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CAABE6A4D8AD4B38CBB8922E78EC5C3 /* stem_ISO_8859_1_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C96B1213D6C0FD7A1DE9DD7A92DEA93 /* stem_ISO_8859_1_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CC9AB220CB3347E154AA8D1A0B37EC6 /* stem_ISO_8859_1_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = C4215A323E77C3EE8E80D943DA78F118 /* stem_ISO_8859_1_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D79C41ECEC2EA7F7B475511FA16B9C5 /* Pods-PorterStemmer2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3D03727B86332DE50996FD747BE44A /* Pods-PorterStemmer2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E765713596F07C328FC14AA014D6048 /* Pods-PorterStemmer2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1745113EA7EA52C5E4B478181A8F37 /* Pods-PorterStemmer2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21CC692E5D2CD50582020497152F6452 /* libstemmer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD9B75811BFB991668F49C7D7D939A /* libstemmer.c */; };
-		22EA55FAC6F95D4C8502F5264EA38082 /* stem_UTF_8_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = D08EA484D421E25F1A3926D5FDD6C841 /* stem_UTF_8_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		249E221A8EE8618F5C9B3B3D52331FC0 /* stem_ISO_8859_1_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 889C5697ED37834D400C2DB6CE8F8515 /* stem_ISO_8859_1_english.c */; };
-		26B67454A28E22C9FFF7251416BC65AC /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = C166C24022B9A5215FE1F480094152B8 /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AEA01A636FF3BDCC6F62AC84AF40BAE /* stem_UTF_8_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = E608C3C74778908999AFDD8A4F38C635 /* stem_UTF_8_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD9FC6F716F5BEE75CB9EA596502431 /* stem_ISO_8859_1_english.h in Headers */ = {isa = PBXBuildFile; fileRef = 6663D829F2F69EE48891EA77313955FF /* stem_ISO_8859_1_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3242F2C4D22A7722F9468BEC1C37AFB6 /* stem_ISO_8859_1_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F09472C98ACA55D250D7F3A1D3A5E /* stem_ISO_8859_1_finnish.c */; };
-		33E90929D6DDA387C252943F9C7B779E /* stem_UTF_8_french.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6E7568F6AEA6BDA54B6E42FAF7A4EE /* stem_UTF_8_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		361DDB899B559FE6F00A9155DAD2EB68 /* stem_UTF_8_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E4CC81CA79877B98A144A7251E9468 /* stem_UTF_8_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39816A76DFE06C5F4827ACFCF20F1847 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		3A1A2C0A257056064D42AE035A50BC41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		435BC47AB8BDEE807B2CD2FAA241262F /* stem_ISO_8859_1_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EDC6A543D8909B9095DE7F7ED035F /* stem_ISO_8859_1_spanish.c */; };
-		4651AFA3050A2DC45003D0E94FAD34FA /* stem_ISO_8859_1_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C404DD2A5AF4DCA15EC11F6C355C09 /* stem_ISO_8859_1_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46FB73F0C170E94B608931A4B8AB42C0 /* stem_UTF_8_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = A02490273212CE8D6DDB6B251AF06115 /* stem_UTF_8_norwegian.c */; };
-		485446770CD37D0F29563A154B4319CE /* stem_ISO_8859_1_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 438A2DAC1CFA439FECA633FEC995EC4B /* stem_ISO_8859_1_italian.c */; };
-		4A549457BD9B6BCFC8C483F58FC512C2 /* stem_UTF_8_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A0D2F80EF6A4A9C3CB71F193E1D8 /* stem_UTF_8_english.c */; };
-		4B21D0D701CC8C0169E8C0343ABA97FA /* stem_ISO_8859_1_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 12080F900CFC2598DEF692DBA85F8302 /* stem_ISO_8859_1_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5006510A37D75E57E3859B7B70A98D80 /* stem_ISO_8859_1_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 706726FBC18E51878C044471326393F9 /* stem_ISO_8859_1_porter.c */; };
-		51686BD84F74C6719D662125C4B62087 /* stem_UTF_8_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = 187A3E7D6DE4DF4431C3C25F3AD92BEE /* stem_UTF_8_hungarian.c */; };
-		52404F539272BA29E430F942B56AA9B3 /* stem_UTF_8_turkish.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F60AA6509CB827E510A5C40E39D0650 /* stem_UTF_8_turkish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		574554F930715C672941A0AAAB402572 /* stem_KOI8_R_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = B42788054CCB6E758DF66EB7F5C65249 /* stem_KOI8_R_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58438AAA266ADBBDCF4C4B1B4499D7D3 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC59A5E0C2CCB22F73EF08B3485609F /* header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F42BC3ED1D143BA190C065CEF71DEAD /* stem_ISO_8859_1_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1D0F77673FDE6E1037C2F462BDE824 /* stem_ISO_8859_1_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BEA4D1F07D729B7190FC337B7C1D9EA /* stem_UTF_8_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F99DF64494D1D653B97ABDFE047831C /* stem_UTF_8_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F2F985170EEC06E810E95267A419E43 /* Pods-PorterStemmer2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1D27151D3667290863F78105DDE9B /* Pods-PorterStemmer2_Tests-dummy.m */; };
-		7340D94BFC3D6888971D096DC80C0FD0 /* stem_UTF_8_turkish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0947C9CC838B646B883AD34EA02AD5FA /* stem_UTF_8_turkish.c */; };
-		76C8EFE261CF26FC00F15176EC31AB53 /* stem_UTF_8_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE2A576902D8F40161FE59F91D75D /* stem_UTF_8_german.c */; };
-		81A550A9362048BB0247C91EFB3A5BD5 /* stem_ISO_8859_1_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B86A763F051ACF8D015BBE49E40E5DD /* stem_ISO_8859_1_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83ADEF1EE907D3F2670F8B2B3388C8F5 /* stem_ISO_8859_1_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1B8A5603B7B92E07FE743CA937DFEC /* stem_ISO_8859_1_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83E4F7AFD14D751F60B7A8A7543112A3 /* stem_UTF_8_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = C4393A8EF3241E3906B2CE9543429A13 /* stem_UTF_8_porter.c */; };
-		84F27644DFFEA316FB7914035177ABF7 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E9DCDA94AD74F738A6B6880F9DD50 /* api.c */; };
-		8DB6A447C187226059550087A9CAD443 /* stem_ISO_8859_1_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = B0FC1A234FE6E2AB8B75A3D5E4744AB3 /* stem_ISO_8859_1_dutch.c */; };
-		906D69299172D63AB587F58DB9871DEA /* stem_UTF_8_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = ECC41B4CADB1C6AA09A219D1074AF696 /* stem_UTF_8_russian.c */; };
-		91E0834323521ACE939A7F0C79AD3B03 /* stem_UTF_8_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = 045255E53FB792E18EAD7E6ECE710F53 /* stem_UTF_8_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9317360FA0BA2795EF2E5AEEA439C962 /* Pods-PorterStemmer2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F69609D7164922F3C04FF02B446CAD /* Pods-PorterStemmer2_Example-dummy.m */; };
-		940C04DC037464A4F0CB6C18CF7529CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		A65585684B47D993730D6AF635435A33 /* modules.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ECCDC195CEECA8D87381EEE1C06AB9 /* modules.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A65ABD20765C2DFECD843328B7BC1FB7 /* stem_UTF_8_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFB0F6C0A8F4757EDC94BFD3D1127E1 /* stem_UTF_8_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6DAE051F11C5EC7EF9F99217E4AC239 /* stem_UTF_8_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = F93123B724C6742A3D165F60D3E36639 /* stem_UTF_8_swedish.c */; };
-		A88035E0F90F4CA1B3A98387F9F48DB3 /* stem_UTF_8_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 13AE2BBF58FB83DBA76BE0FC8706E06D /* stem_UTF_8_french.c */; };
-		A95EA5D591B4858217499A3F6AC9D4FF /* stem_UTF_8_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 31773E6EEE2E58235DA6CA0BAE10DD39 /* stem_UTF_8_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1A457B982B67098224E7755C62C746D /* stem_ISO_8859_1_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CD5DC8C8558EA8970D1B6A047ED818 /* stem_ISO_8859_1_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF35C23674752CFCF05D56907264B1DF /* stem_UTF_8_english.h in Headers */ = {isa = PBXBuildFile; fileRef = BED3E271BFFA1E506E71D939B124B94F /* stem_UTF_8_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3697AAFAFB29B897303CD436B8AB805 /* stem_UTF_8_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = FA51EC8A263990A9C60FA6D9DC467343 /* stem_UTF_8_dutch.c */; };
-		C410E64C3E7A74E4C29FDB0DAE8F9B38 /* stem_ISO_8859_1_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = 5584AB1A446B29D38B648E06CE0A527A /* stem_ISO_8859_1_norwegian.c */; };
-		C58A428D8C881BEF7CF5C1282C969350 /* PorterStemmer2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 873A670EA32512E578A4B46FDBA9DF8D /* PorterStemmer2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C925C8143826F829448F9400D2E3A33A /* PorterStemmer2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5979E6B8434694E86ACD3B49F1902D /* PorterStemmer2-dummy.m */; };
-		C95F92D49FBB5F90E695720A75FE4BE3 /* stem_UTF_8_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FF74E6355C5D45A4AA499FEBF94DD90 /* stem_UTF_8_spanish.c */; };
-		C96DB88E4B003381E7139771FF761775 /* stem_ISO_8859_2_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = 52458A3B2C429ACDF288D57781A754E2 /* stem_ISO_8859_2_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBB885C928F28BCB7BE77882B509F0D5 /* stem_ISO_8859_1_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 56348551F0B1D729A72C0D79275EDBC6 /* stem_ISO_8859_1_danish.c */; };
-		CCBD3C14D06D122B5822ED18A4D19E0E /* stem_UTF_8_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = B555704B99B1D6F82378D63C1B834323 /* stem_UTF_8_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1DF10FEE3BB89BB14A964F09B73B334 /* stem_UTF_8_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 778D20C6D3A693207627813C9A7C6D48 /* stem_UTF_8_italian.c */; };
-		D250B7EEBFBBDCEF01FF2BBFC62B43C0 /* stem_UTF_8_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0224605364941030BA09128222F4E114 /* stem_UTF_8_finnish.c */; };
-		D86808D2E6AE14554691EF22C1028FAD /* stem_ISO_8859_1_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 29CF9FF014FC05ABFCA34D1AA4D2C371 /* stem_ISO_8859_1_portuguese.c */; };
-		D9CE888367320A6F8605F5240538D4BE /* stem_UTF_8_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A55B89CA0A18F00E605833377AA5F8 /* stem_UTF_8_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC9897BE71878BDFF52C0AB59CA06CD8 /* stem_ISO_8859_2_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = 68E526EC0DE83699DA3F00238B826235 /* stem_ISO_8859_2_hungarian.c */; };
-		DF36A726C8D4133784D128F470BB69B5 /* stem_UTF_8_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 44DE55AF33D9BFCF5F144278AF989731 /* stem_UTF_8_romanian.c */; };
-		DFDA25ACE271DCF37B7A4D5BF0EB67CA /* stem_ISO_8859_1_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6100EF8C3C5A0C3B3A3AEE59DE540EE3 /* stem_ISO_8859_1_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFEF435B663EA79AE6DD16D58240712A /* stem_ISO_8859_2_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = 77647B341E886FB04DB773D6FE9F1A31 /* stem_ISO_8859_2_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E10CA0B9C8FD0501450C13B57AC78E0E /* stem_UTF_8_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = 563C21460622744F41E762310F644A76 /* stem_UTF_8_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8C90FC20258B4CE72A25C71427F432F /* libstemmer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFB28961590BA8E8A1E6A270461A3CC /* libstemmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC19CCF7BC3ED8CD0D03A0934E557F6E /* PorterStemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FF53FDE1BF007993F48F8D1189C4C2 /* PorterStemmer.swift */; };
-		ED78F0A9DAE87D62F22E2B588EB11259 /* stem_UTF_8_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = E2F60E79114321DB7AB8138BD9C34837 /* stem_UTF_8_portuguese.c */; };
-		F3F7B6CE5CD43D4D9579B83888E6D4E0 /* stem_ISO_8859_2_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ACFBCFCA0DC03A3FC809F99DACE8C /* stem_ISO_8859_2_romanian.c */; };
-		FA9625532AA725EDCD186F83BE22098A /* stem_ISO_8859_1_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A57A0AE9503F069892BEBC108BCB8C6 /* stem_ISO_8859_1_german.c */; };
+		0069AE8234EA86015C498940F88637E8 /* libstemmer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2851C5AB8C562F1843B41E2785B6C880 /* libstemmer.c */; };
+		01AF3EEE35C97126EAC89964F01A6AAA /* stem_UTF_8_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 11236A5427E2EAC8CD2275F2213CCC6D /* stem_UTF_8_english.c */; };
+		027C1B1964936A4B14EDA1437E21866B /* stem_ISO_8859_2_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB228A037AD8A8EEF2570A631F980F /* stem_ISO_8859_2_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075C7B28859C39FD1779E206E6313D61 /* stem_UTF_8_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C7F88A731712F7A7906BA814B937 /* stem_UTF_8_finnish.c */; };
+		099FF3F672A9A5C65F07E2A527E91F58 /* stem_ISO_8859_2_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 6475C9CD600E6BA05B83ED3F741F9E24 /* stem_ISO_8859_2_romanian.c */; };
+		0BD16E1988F8B18B65853C15E42BAD02 /* stem_ISO_8859_1_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5B749F5A68FFAC9CC1B1055B9A18B7 /* stem_ISO_8859_1_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C756941BCD47E1739CB978D43F7C4E1 /* stem_ISO_8859_2_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = DA241B3A5F3B8A0315A6643DA25F7ED2 /* stem_ISO_8859_2_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB763AE3CFBB3D7EC26040340512EF9 /* stem_ISO_8859_1_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 88B8980764DC342452D0B3B34B559FB4 /* stem_ISO_8859_1_spanish.c */; };
+		12DC86E20F4BEC23A20E20E6AC283D36 /* stem_UTF_8_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5556DED6AD780F8CC75F2021740405 /* stem_UTF_8_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E2D6D0416E22D69A6769B860DB0C0B /* stem_UTF_8_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = DCDCB335F9A51EC4C202A7F891FC5433 /* stem_UTF_8_dutch.c */; };
+		1871317DCE794794018E2CE77FB08E3F /* stem_UTF_8_french.h in Headers */ = {isa = PBXBuildFile; fileRef = B9101DE4E858CC09386A9C2CCE33AD0C /* stem_UTF_8_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195D73EAC177A5767E9D498409AA7426 /* stem_ISO_8859_1_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C3882762438608DDE5585B7EA76719 /* stem_ISO_8859_1_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4725F239B28DAF96841AB03A19607B /* stem_ISO_8859_1_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = D086AEFD78B2406C96FA0FB30E5D8A9F /* stem_ISO_8859_1_dutch.c */; };
+		1FB9CB79D028D6642CD1198605181187 /* stem_ISO_8859_1_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F73DB6E714A7B6C104B420639BF61A7 /* stem_ISO_8859_1_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A49C2D4B1A505F6904F48DC42B6A34 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC98AE7F0158336F35D2C65AB132FEA /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26347FF1CD82ED5122A1749E36E6580D /* stem_ISO_8859_2_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E609574271A85DB8D48B50FEAA6EF1 /* stem_ISO_8859_2_hungarian.c */; };
+		2915A09F2CF1F108402846734F2186C4 /* stem_ISO_8859_1_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F73DB6E714A7B6C104B420639BF61A7 /* stem_ISO_8859_1_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C967F77EBBDC429D68D9BD90619D214 /* stem_UTF_8_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFE4A12FB632723CE31C5A6A0A6F055 /* stem_UTF_8_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC91E6F01D6991D848F2C8CFCC969BD /* stem_UTF_8_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 5238F9750566A379DDF731636F6350B4 /* stem_UTF_8_portuguese.c */; };
+		2ECB6CF0AC64D81F237AF84F524DE4C3 /* stem_KOI8_R_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 8618BE60A51CA29864D0283F8D6187AE /* stem_KOI8_R_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FBC1AE421D2A2F6D0530B87276ABD3F /* stem_ISO_8859_1_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E175C73D87D9B1F675CF6A7B71A8D6 /* stem_ISO_8859_1_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365AD6DD4F9208DE12BAB3DCF703F9FF /* stem_UTF_8_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = 89185A8338D723446712CECD42E405FB /* stem_UTF_8_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE9F099B52E6FE49B34732F447A7B04 /* stem_ISO_8859_1_english.h in Headers */ = {isa = PBXBuildFile; fileRef = D35C97FD090BA713661719443DB03DEB /* stem_ISO_8859_1_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8F83CD6636C8A4029239D9967ADF4E /* stem_UTF_8_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE54AE42EF9B76930276081E8B31AD /* stem_UTF_8_danish.c */; };
+		3BD9BD0D5D3D755317F40CBC78725D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		3D0FC3DE6E844D7851D50AE9C46E6C09 /* stem_UTF_8_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFB1DCE79278441473BE5ABDF25DBDB /* stem_UTF_8_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6DEB01F295902C6E522BFE6BAAF0A2 /* stem_UTF_8_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C201756CEC13B6763190413BFDB6EE /* stem_UTF_8_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBDAEF6A0D36DA09DECB05FD7CB0059 /* stem_UTF_8_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 640B4C1B82B1BB8DCA29C2341AD96A1A /* stem_UTF_8_spanish.c */; };
+		3E870E238CBBF3467B576CFEB33C7811 /* stem_UTF_8_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C7F88A731712F7A7906BA814B937 /* stem_UTF_8_finnish.c */; };
+		3F03CA819857818C4F272C92A01437B2 /* stem_UTF_8_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = 9580E7800A6B8B3BA57C9656F39B69A9 /* stem_UTF_8_norwegian.c */; };
+		4095F3A55DFEB948A7988EE9163BD8DF /* stem_ISO_8859_1_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5B749F5A68FFAC9CC1B1055B9A18B7 /* stem_ISO_8859_1_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DAECE9229039D27817585FF3015F5F /* stem_UTF_8_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 593016141D7346D09B2B1602C0F18F6A /* stem_UTF_8_swedish.c */; };
+		457957BDDA827FF36D68D50386FF667D /* stem_UTF_8_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE54AE42EF9B76930276081E8B31AD /* stem_UTF_8_danish.c */; };
+		47A0EBCB0474814952175027ECF09B00 /* stem_UTF_8_english.h in Headers */ = {isa = PBXBuildFile; fileRef = E45705476C883B6EDDE7CDDB642DB5A4 /* stem_UTF_8_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F40B37F0740760D27131ADE2B86BF0 /* Pods-PorterStemmer2_Example_OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDF35F5BE99E56FA5C45B8F200BD0AD /* Pods-PorterStemmer2_Example_OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9D6923DF2734E15933C3D765AF0DBD /* stem_UTF_8_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B5A9C33EB80C14BC2F64D7F1D02DCE /* stem_UTF_8_porter.c */; };
+		4B1542215DE2D8BB3E9E64E20DECE106 /* stem_ISO_8859_2_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E609574271A85DB8D48B50FEAA6EF1 /* stem_ISO_8859_2_hungarian.c */; };
+		4BE2FE36D6C7D2B764B074BD737F0EFF /* stem_ISO_8859_1_french.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEA31C5C1A8B45A4DF3A8F2975E5A9 /* stem_ISO_8859_1_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C444D0A917EA2421BAC02C0BE66A8BC /* stem_UTF_8_french.c in Sources */ = {isa = PBXBuildFile; fileRef = AE24C105FA5BAA90B5D35C623F10A1AE /* stem_UTF_8_french.c */; };
+		4F3D8FA25233F33DE17DF15B948A1DF0 /* stem_ISO_8859_1_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E66CE3F7C274F4A32665FA9B2EAA1D /* stem_ISO_8859_1_swedish.c */; };
+		4F6B4D8E53AD174A9A03443782CBFD1E /* stem_UTF_8_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EC300ED07D39179CF2C4D7D4997378 /* stem_UTF_8_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50213B5F99B8ABC5A3DCB0C876BF6DE9 /* stem_UTF_8_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA5ED060381C2CEDF5952F2B5C786B8 /* stem_UTF_8_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A2645D4EA43579DBE8F5EC774BA3E7 /* stem_ISO_8859_1_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = EE27596C4E8DE395F4020C7394CAF404 /* stem_ISO_8859_1_norwegian.c */; };
+		543A9CF877BC8952E617295B88A47C2D /* stem_ISO_8859_1_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 703735719BF623973512740167113FEF /* stem_ISO_8859_1_danish.c */; };
+		549D50EE6EF7AA0DE88F568128206A9E /* stem_UTF_8_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 11236A5427E2EAC8CD2275F2213CCC6D /* stem_UTF_8_english.c */; };
+		55119E47A902EC0513AB5B01E3E4C495 /* PorterStemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066388A1CF68B93B3B4BE598AEAD5954 /* PorterStemmer.swift */; };
+		5619FADBDD8181D62F35652C8772A72E /* stem_ISO_8859_1_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = A051E85DC2EDC569A28D3D8F44A07CAD /* stem_ISO_8859_1_italian.c */; };
+		5CCADDCC641F3A09B5D043A18B1E4D39 /* stem_ISO_8859_1_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 703735719BF623973512740167113FEF /* stem_ISO_8859_1_danish.c */; };
+		5DACEEF8657DAAB1D413F90903DE2057 /* stem_UTF_8_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C370E7D08599996FADA7DD75A4A078A /* stem_UTF_8_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED49B4B4538C6E00C7B521DC968DD06 /* stem_UTF_8_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 00210990F5CFD53FE1131517C8893775 /* stem_UTF_8_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1C415E52E4782FA45024C347A2D96B /* stem_ISO_8859_1_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 88B8980764DC342452D0B3B34B559FB4 /* stem_ISO_8859_1_spanish.c */; };
+		663C53C764FD9D5A5F9D512483D627AB /* stem_ISO_8859_1_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 493F2406A11B51B88B27612BE04C0B16 /* stem_ISO_8859_1_portuguese.c */; };
+		67E550C855E2E489BD3C4E573354A8F4 /* utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BE635CE2CDD1AC2E5DD6AF3092894 /* utilities.c */; };
+		681B11117C93F4485405FABA94670B2A /* stem_ISO_8859_1_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E175C73D87D9B1F675CF6A7B71A8D6 /* stem_ISO_8859_1_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB108080D2EAD66D3670B0A2D6A0427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		6D58B35EF030F2D2DF5217C954A76FBD /* stem_ISO_8859_1_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = 426E292A38C0846166804B6B2498411F /* stem_ISO_8859_1_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3A6DBA0A42FBC3AFBB3D682A7C5EC8 /* stem_ISO_8859_1_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 175EC9D7ED6F58370776DCCDE5EF8D33 /* stem_ISO_8859_1_porter.c */; };
+		72BB1B7EC9648344C45D4CC79DC37566 /* stem_ISO_8859_1_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = D086AEFD78B2406C96FA0FB30E5D8A9F /* stem_ISO_8859_1_dutch.c */; };
+		7C5070B2F0C4F4339E60B573CD967FE7 /* stem_UTF_8_turkish.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CF5730E8C2730E51BB3EF5FD67A02E /* stem_UTF_8_turkish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D77ECB2FD32E242342D15B9174C8701 /* stem_UTF_8_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 58866253FDD1DAE22C6766F4508F11FF /* stem_UTF_8_italian.c */; };
+		80176D3D17F159C733DA05E9AD1AFB89 /* stem_UTF_8_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFB1DCE79278441473BE5ABDF25DBDB /* stem_UTF_8_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C28845A9548CCDD06E214817EDED5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		8313FCE5B93001B525D913BE46AC33AA /* stem_UTF_8_turkish.c in Sources */ = {isa = PBXBuildFile; fileRef = 335C0D7928AA6596BF3DA123847B05B6 /* stem_UTF_8_turkish.c */; };
+		83AD8A71A57FF966C34C9A67D13AE537 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC98AE7F0158336F35D2C65AB132FEA /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C4878BBB4ED4C4196C4FE5EA8D2AFF /* modules.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFF0873B3A495EBA81B685DBBAAE042 /* modules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E0F1863471261E4776DDA50770802A /* stem_ISO_8859_1_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = 426E292A38C0846166804B6B2498411F /* stem_ISO_8859_1_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E7E0C2192DBE5FCE89B75C66B7BDC1 /* stem_ISO_8859_1_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 807AC3058AA5F77059885BE78EACAA15 /* stem_ISO_8859_1_finnish.c */; };
+		845FAC901F9CDD04D5C921D0589A74AC /* stem_ISO_8859_2_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB228A037AD8A8EEF2570A631F980F /* stem_ISO_8859_2_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8467D64D662DE55043B9FE9AF52430C8 /* stem_ISO_8859_1_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDC724460EBE4669BA4EAD39FCD17BE /* stem_ISO_8859_1_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8487FCF09CF8AA14581079EFD21078EC /* libstemmer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F44115829A32D7D3E900401725CF6B /* libstemmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F17FD1419AA2F3D79416AD35EF6C02 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = C33A9F3810B14536902DF0C853A246DB /* header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F385759F8C3D38306E3065FE9E2AAF /* stem_UTF_8_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C370E7D08599996FADA7DD75A4A078A /* stem_UTF_8_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7A514FC90A0190E5E8B32AA796FFF /* stem_UTF_8_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3ED9EEAFDA899E4C73B05DA22A02B0 /* stem_UTF_8_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CC35B270E8C4D8819B7B7F608DBCA3E /* stem_UTF_8_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 5238F9750566A379DDF731636F6350B4 /* stem_UTF_8_portuguese.c */; };
+		8D42DAFB92A775AD55D7325C5111426B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		8D75370E443419F26BBEC948D7BC5E64 /* Pods-PorterStemmer2_Example_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B8A88927D39691DEECEB5B6BB0E90D /* Pods-PorterStemmer2_Example_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8C969EA01CDEDF798767C8BA6F4CBF /* stem_ISO_8859_1_english.h in Headers */ = {isa = PBXBuildFile; fileRef = D35C97FD090BA713661719443DB03DEB /* stem_ISO_8859_1_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8FB85D4F290CA4F8BCF9E153748AF9 /* stem_ISO_8859_1_german.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E44C3578EA37E3332EF37032BD6C22 /* stem_ISO_8859_1_german.c */; };
+		8FA5104F1D52347A26CF7B293DE5555D /* PorterStemmer2-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA9311C7D1693846702C040D6164401 /* PorterStemmer2-macOS-dummy.m */; };
+		904496EDE5F4D758A2BA2CD6B0DA4D82 /* stem_UTF_8_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 640B4C1B82B1BB8DCA29C2341AD96A1A /* stem_UTF_8_spanish.c */; };
+		90D35106D77956B0A5FDBF1547C02706 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = C33A9F3810B14536902DF0C853A246DB /* header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918347547F9BFEFFAC5B06758FCD82BF /* stem_UTF_8_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA5ED060381C2CEDF5952F2B5C786B8 /* stem_UTF_8_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9209F61853FA7E73B90F07E0CAD330BE /* stem_ISO_8859_1_english.c in Sources */ = {isa = PBXBuildFile; fileRef = CFEE36F131081EE44A6C2CFC7C599854 /* stem_ISO_8859_1_english.c */; };
+		97856310FF4D8A9D006FFEB75875C0BA /* stem_UTF_8_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = B545046FA77A853EDCD21CFAF3764D0B /* stem_UTF_8_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A792AE8BF8FBED1B43E23CE4E6A4A44 /* stem_UTF_8_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 8390E0785A91A137AF8D3433ED4F1A4D /* stem_UTF_8_german.c */; };
+		9A84CD2E67317903CD57D9B42308F59A /* PorterStemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066388A1CF68B93B3B4BE598AEAD5954 /* PorterStemmer.swift */; };
+		9C1B93E3A53D3912CD6703B07918A70B /* stem_UTF_8_french.h in Headers */ = {isa = PBXBuildFile; fileRef = B9101DE4E858CC09386A9C2CCE33AD0C /* stem_UTF_8_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F61C7C2DA85481978BF70ABD8D0E2B5 /* stem_UTF_8_turkish.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CF5730E8C2730E51BB3EF5FD67A02E /* stem_UTF_8_turkish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCE151754AE6C3CD08768E6E7710533 /* stem_UTF_8_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = BB31ED3F6669ECC46074C5CD00DCADCD /* stem_UTF_8_hungarian.c */; };
+		A1040AD769E8436552D15FA5E0B3D148 /* stem_UTF_8_turkish.c in Sources */ = {isa = PBXBuildFile; fileRef = 335C0D7928AA6596BF3DA123847B05B6 /* stem_UTF_8_turkish.c */; };
+		A1841CF30066FCC6776DF8BCFAE7F2B6 /* PorterStemmer2-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC8BF8BACEC8BBF212F5A6F60EF58AA /* PorterStemmer2-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A330EFC527F8F48F918EE41F4B295468 /* stem_ISO_8859_1_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8D0E39C6171BC1419BC38B8963D329 /* stem_ISO_8859_1_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50D43511F40E7B564438561CC54D995 /* PorterStemmer2-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C42A1D5086D055C789ABF2F37E76A928 /* PorterStemmer2-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60DA3ED6CD441FB01ADADCB129C9179 /* stem_UTF_8_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = DCDCB335F9A51EC4C202A7F891FC5433 /* stem_UTF_8_dutch.c */; };
+		A6A685AFAED3E7901830CB70262EF361 /* stem_UTF_8_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5556DED6AD780F8CC75F2021740405 /* stem_UTF_8_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C46B010165D719D04B12524CB27B52 /* stem_UTF_8_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = 10E05106F3BF6ACA0433900D28E0351B /* stem_UTF_8_russian.c */; };
+		A7477C39E784679A15A0F3830D0473E4 /* stem_UTF_8_english.h in Headers */ = {isa = PBXBuildFile; fileRef = E45705476C883B6EDDE7CDDB642DB5A4 /* stem_UTF_8_english.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79258CCBDF5DF17E3BD5E72F55E5AF1 /* libstemmer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2851C5AB8C562F1843B41E2785B6C880 /* libstemmer.c */; };
+		A968444E32885261496602BBC0DFC7CF /* Pods-PorterStemmer2_Example_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206D8C747E5D6CFA0D6E581CCB26FF29 /* Pods-PorterStemmer2_Example_iOS_Tests-dummy.m */; };
+		AC4A43BBDADB0C438257F60FA70ABA34 /* modules.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFF0873B3A495EBA81B685DBBAAE042 /* modules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB65B1FA5012C0B34F75B8C0B78FA13 /* stem_ISO_8859_1_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 740F1174A640394F89F0DA295964BF0F /* stem_ISO_8859_1_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF05278A3DCD0368B3642DAC488FB8E7 /* stem_ISO_8859_1_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 175EC9D7ED6F58370776DCCDE5EF8D33 /* stem_ISO_8859_1_porter.c */; };
+		B184F62AD2E44126658DEBEE81D8D2D6 /* Pods-PorterStemmer2_Example_OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B64448268D8D3A7903A50EE5F1D23 /* Pods-PorterStemmer2_Example_OSX-dummy.m */; };
+		B58D3D38082E2AF82BEB9EEE1AB2A619 /* stem_KOI8_R_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 8618BE60A51CA29864D0283F8D6187AE /* stem_KOI8_R_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5EF21D52B075FCA1188A1148F1AC1D7 /* stem_ISO_8859_1_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 75EF6F5B9DF68F8989C5CF7823607EAA /* stem_ISO_8859_1_french.c */; };
+		B87D786F5D13C98284E2FE59505396F4 /* stem_UTF_8_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 8390E0785A91A137AF8D3433ED4F1A4D /* stem_UTF_8_german.c */; };
+		B95DA81A6033D8A415FAA07DB3EA82F9 /* stem_ISO_8859_2_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = DA241B3A5F3B8A0315A6643DA25F7ED2 /* stem_ISO_8859_2_romanian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA75DC3D197B9799F315D2F874BB476F /* stem_ISO_8859_1_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 807AC3058AA5F77059885BE78EACAA15 /* stem_ISO_8859_1_finnish.c */; };
+		BB06763B52C1B08EEF8B2E43954FE7D1 /* stem_ISO_8859_1_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E66CE3F7C274F4A32665FA9B2EAA1D /* stem_ISO_8859_1_swedish.c */; };
+		BBB66EC88A17FBAB051DA14AB20ABB19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		BCE0CF04BF0EF5434E7D78DA8D0A40FC /* stem_ISO_8859_1_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8D0E39C6171BC1419BC38B8963D329 /* stem_ISO_8859_1_finnish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD651DED4303410749FF3FF7F3431CB4 /* stem_UTF_8_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B5A9C33EB80C14BC2F64D7F1D02DCE /* stem_UTF_8_porter.c */; };
+		BFC0B972CFF6662F4067C7538C8E0B45 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C64E3F477EFA149C84932C47E6A753 /* api.c */; };
+		BFE8C896B0E41FD5375E23BECD751E17 /* stem_UTF_8_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFA1D77DE275ED89D3F20936BDBB98A /* stem_UTF_8_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D83F11E058D6F1EF64263A809EEBA5 /* stem_UTF_8_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C201756CEC13B6763190413BFDB6EE /* stem_UTF_8_russian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B40237C3D9DBB6B491550F6CD73CDD /* Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1ABC2ABC502DE8C6CA82DED830D47C /* Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A16CBCAD0CEE0E8F50BE0E7750BC83 /* stem_UTF_8_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EC300ED07D39179CF2C4D7D4997378 /* stem_UTF_8_swedish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B57606A30E76EB74E26128AEBDA24E /* stem_ISO_8859_2_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 6475C9CD600E6BA05B83ED3F741F9E24 /* stem_ISO_8859_2_romanian.c */; };
+		C7C7A12D4F111B2A33F22037E535B5EA /* stem_KOI8_R_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = C5F6FB166F025B9F86419F96A62E214A /* stem_KOI8_R_russian.c */; };
+		CAA4305C0572D15C1DF48E093977D621 /* stem_ISO_8859_1_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 740F1174A640394F89F0DA295964BF0F /* stem_ISO_8859_1_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1F8B67F3A736E6CC3366EF191B8532 /* stem_ISO_8859_1_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = C48A68B06F8EBBB9A4BBEDF2BFAF85A7 /* stem_ISO_8859_1_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCE39B71AD8743A9F8364A940A50C649 /* stem_UTF_8_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = F1D4C6C47CA5AEA163598C62A6F698E9 /* stem_UTF_8_romanian.c */; };
+		CCFF717FA376203F60EAFA6E05C0D542 /* stem_ISO_8859_1_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDC724460EBE4669BA4EAD39FCD17BE /* stem_ISO_8859_1_portuguese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0C850CFA8E146E583D5CAA3A5F5AA8 /* stem_ISO_8859_1_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = A051E85DC2EDC569A28D3D8F44A07CAD /* stem_ISO_8859_1_italian.c */; };
+		D1A24DEE3238D93104F320EC21C3F8D4 /* stem_ISO_8859_1_french.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEA31C5C1A8B45A4DF3A8F2975E5A9 /* stem_ISO_8859_1_french.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C427617557463212F54423F8DC00BF /* stem_ISO_8859_1_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 987B30157EDD49F2D2D36A9B28F302A1 /* stem_ISO_8859_1_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D917CEB092F25B4BCDD2F5AE062404DA /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C64E3F477EFA149C84932C47E6A753 /* api.c */; };
+		D9EC20075147A5FBCA9B2CB55D574BBA /* stem_UTF_8_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = BB31ED3F6669ECC46074C5CD00DCADCD /* stem_UTF_8_hungarian.c */; };
+		DA76AD6C4A4D9D83A64C9A156BB27E77 /* stem_UTF_8_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CB8DA18E3B0252FCFBC14B447ADD4D /* stem_UTF_8_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE004262F2EFD4C713D3AF0FB85C640 /* stem_ISO_8859_1_english.c in Sources */ = {isa = PBXBuildFile; fileRef = CFEE36F131081EE44A6C2CFC7C599854 /* stem_ISO_8859_1_english.c */; };
+		DF52582E718BACF429A36F8B05BD9C4D /* stem_UTF_8_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 58866253FDD1DAE22C6766F4508F11FF /* stem_UTF_8_italian.c */; };
+		E00989240550B6A3B25F1882FAC29805 /* stem_ISO_8859_1_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = C48A68B06F8EBBB9A4BBEDF2BFAF85A7 /* stem_ISO_8859_1_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14F94FD141F0772F22950F632F77096 /* utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BE635CE2CDD1AC2E5DD6AF3092894 /* utilities.c */; };
+		E261F0AEE0A91C3BD5202F7546A2A7DD /* stem_KOI8_R_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = C5F6FB166F025B9F86419F96A62E214A /* stem_KOI8_R_russian.c */; };
+		E2FDF52CC2DDA9D242B37B3A9BBB8B51 /* stem_UTF_8_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CB8DA18E3B0252FCFBC14B447ADD4D /* stem_UTF_8_porter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30396267BA2E4927DCA5FEDB84CB9AB /* stem_ISO_8859_1_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 493F2406A11B51B88B27612BE04C0B16 /* stem_ISO_8859_1_portuguese.c */; };
+		E61FA622D12412D3E787FB3DF8D3BB30 /* stem_UTF_8_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = 9580E7800A6B8B3BA57C9656F39B69A9 /* stem_UTF_8_norwegian.c */; };
+		E62E222FDF72884CCA579F7EE8037F07 /* Pods-PorterStemmer2_Example_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEE8B53E643657AA92C0FFDFA8DCD6 /* Pods-PorterStemmer2_Example_iOS-dummy.m */; };
+		E8E2340E860BB6E278B1040E5BF0A231 /* stem_UTF_8_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = F1D4C6C47CA5AEA163598C62A6F698E9 /* stem_UTF_8_romanian.c */; };
+		E970BB93E6C43FA914C37D139C3DD667 /* stem_ISO_8859_1_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 75EF6F5B9DF68F8989C5CF7823607EAA /* stem_ISO_8859_1_french.c */; };
+		EB92D18E49A5F702A3A8033255565BC5 /* stem_UTF_8_french.c in Sources */ = {isa = PBXBuildFile; fileRef = AE24C105FA5BAA90B5D35C623F10A1AE /* stem_UTF_8_french.c */; };
+		EC6B80485FCC019F44B4405ED32329DD /* stem_ISO_8859_1_german.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E44C3578EA37E3332EF37032BD6C22 /* stem_ISO_8859_1_german.c */; };
+		ED37D1F462467EA57FD96995446E32C6 /* stem_UTF_8_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = 10E05106F3BF6ACA0433900D28E0351B /* stem_UTF_8_russian.c */; };
+		EEAB5DE147EC12525A7C6B5D8FD20B10 /* stem_ISO_8859_1_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 987B30157EDD49F2D2D36A9B28F302A1 /* stem_ISO_8859_1_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00540B351088007FBE562A56D6A5B09 /* stem_UTF_8_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = B545046FA77A853EDCD21CFAF3764D0B /* stem_UTF_8_italian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F460BD9FE9EC816E682F18B2066CFB /* stem_UTF_8_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFE4A12FB632723CE31C5A6A0A6F055 /* stem_UTF_8_danish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F356B52D90D9CAD528BEE211230EEF12 /* libstemmer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F44115829A32D7D3E900401725CF6B /* libstemmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86E68C09F3610325C09C60A40D9A373 /* stem_ISO_8859_1_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C3882762438608DDE5585B7EA76719 /* stem_ISO_8859_1_spanish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87010A4DD94F570060E628693E53E9A /* stem_ISO_8859_1_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = EE27596C4E8DE395F4020C7394CAF404 /* stem_ISO_8859_1_norwegian.c */; };
+		F89CD897FB6012B9B29FB60D8E72CDD9 /* stem_UTF_8_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 593016141D7346D09B2B1602C0F18F6A /* stem_UTF_8_swedish.c */; };
+		FB99867D19BE6AABFDB5FF5455E30068 /* stem_UTF_8_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3ED9EEAFDA899E4C73B05DA22A02B0 /* stem_UTF_8_german.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7CDC0617D545FD5AB14145A4EF69E6 /* stem_UTF_8_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 00210990F5CFD53FE1131517C8893775 /* stem_UTF_8_dutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCEC0593BEB8B789262F0F78468157F1 /* stem_UTF_8_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFA1D77DE275ED89D3F20936BDBB98A /* stem_UTF_8_hungarian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDBF0D545711B02AE8594292E06F7182 /* stem_UTF_8_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = 89185A8338D723446712CECD42E405FB /* stem_UTF_8_norwegian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE602ED7EA0741E81348FAD3BB268E48 /* PorterStemmer2-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB23909C7DB6361FE79F223BBA72AE /* PorterStemmer2-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E9277192C98B2C2F900D483CBAFA392 /* PBXContainerItemProxy */ = {
+		08652A074FD78FE8F980F2873B7E327B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B21AED28B62FDDBD489397C62D32DDA6;
-			remoteInfo = PorterStemmer2;
+			remoteGlobalIDString = BA502DB4669ADFB0EFABBF05EF89C190;
+			remoteInfo = "PorterStemmer2-iOS";
 		};
-		CFDCA339B88973D0BF67434CDE21FFC9 /* PBXContainerItemProxy */ = {
+		A126A60D12C37FF05436A0117DD46244 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A45E0C65F48FC6C2159765DD2064AE9;
-			remoteInfo = "Pods-PorterStemmer2_Example";
+			remoteGlobalIDString = 8C099A105698277FAF650B6606E4DB6D;
+			remoteInfo = "PorterStemmer2-macOS";
+		};
+		E7292DEABE3941DD33D433DC71C306EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B25B9BA66BB4DF71887CE6EA1A27826;
+			remoteInfo = "Pods-PorterStemmer2_Example_iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0224605364941030BA09128222F4E114 /* stem_UTF_8_finnish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_finnish.c; sourceTree = "<group>"; };
-		03800B3B08810068198065DAD5B68BEE /* Pods-PorterStemmer2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PorterStemmer2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		045255E53FB792E18EAD7E6ECE710F53 /* stem_UTF_8_romanian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_romanian.h; sourceTree = "<group>"; };
-		08E4CC81CA79877B98A144A7251E9468 /* stem_UTF_8_danish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_danish.h; sourceTree = "<group>"; };
-		0947C9CC838B646B883AD34EA02AD5FA /* stem_UTF_8_turkish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_turkish.c; sourceTree = "<group>"; };
-		0C0E9DCDA94AD74F738A6B6880F9DD50 /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; path = api.c; sourceTree = "<group>"; };
-		12080F900CFC2598DEF692DBA85F8302 /* stem_ISO_8859_1_german.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_german.h; sourceTree = "<group>"; };
-		13AE2BBF58FB83DBA76BE0FC8706E06D /* stem_UTF_8_french.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_french.c; sourceTree = "<group>"; };
-		187A3E7D6DE4DF4431C3C25F3AD92BEE /* stem_UTF_8_hungarian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_hungarian.c; sourceTree = "<group>"; };
-		196AF9E146335A148FFEF37EE2BC4A71 /* Pods-PorterStemmer2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		243585DDF624AF4098680316BDD11B53 /* PorterStemmer2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PorterStemmer2-prefix.pch"; sourceTree = "<group>"; };
-		261D048AAF7A164C9DC07EE689C1768A /* Pods-PorterStemmer2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		28EDE2A576902D8F40161FE59F91D75D /* stem_UTF_8_german.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_german.c; sourceTree = "<group>"; };
-		29CF9FF014FC05ABFCA34D1AA4D2C371 /* stem_ISO_8859_1_portuguese.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_portuguese.c; sourceTree = "<group>"; };
-		2A7FC4C8C684AB713B34A94329D594DA /* stem_ISO_8859_1_italian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_italian.h; sourceTree = "<group>"; };
-		2B8F09472C98ACA55D250D7F3A1D3A5E /* stem_ISO_8859_1_finnish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_finnish.c; sourceTree = "<group>"; };
-		2BB1D27151D3667290863F78105DDE9B /* Pods-PorterStemmer2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PorterStemmer2_Tests-dummy.m"; sourceTree = "<group>"; };
-		2BFB0F6C0A8F4757EDC94BFD3D1127E1 /* stem_UTF_8_russian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_russian.h; sourceTree = "<group>"; };
-		30E9B0E8B3AA8466D8BCE3985FD472F9 /* utilities.c */ = {isa = PBXFileReference; includeInIndex = 1; path = utilities.c; sourceTree = "<group>"; };
-		31773E6EEE2E58235DA6CA0BAE10DD39 /* stem_UTF_8_italian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_italian.h; sourceTree = "<group>"; };
-		35ADB6F35FC1B1CDBBD751CCC0D1CFDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3625C889EC7E68B56F7F19D70200434D /* Pods-PorterStemmer2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37E1A0D2F80EF6A4A9C3CB71F193E1D8 /* stem_UTF_8_english.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_english.c; sourceTree = "<group>"; };
-		3C8ACFBCFCA0DC03A3FC809F99DACE8C /* stem_ISO_8859_2_romanian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_2_romanian.c; sourceTree = "<group>"; };
-		4087861E88F576F3E3CDF2C93AD2EA33 /* Pods_PorterStemmer2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PorterStemmer2_Tests.framework; path = "Pods-PorterStemmer2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		438A2DAC1CFA439FECA633FEC995EC4B /* stem_ISO_8859_1_italian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_italian.c; sourceTree = "<group>"; };
-		44DE55AF33D9BFCF5F144278AF989731 /* stem_UTF_8_romanian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_romanian.c; sourceTree = "<group>"; };
-		4604E623DD3593ECCA54A2E4851642E9 /* PorterStemmer2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PorterStemmer2.xcconfig; sourceTree = "<group>"; };
-		4817EC4C57EFD34509D94FFCD29E60A6 /* stem_ISO_8859_1_french.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_french.c; sourceTree = "<group>"; };
-		4844DD889BAA0D0BF95179C37AEB8BFF /* Pods-PorterStemmer2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PorterStemmer2_Example-frameworks.sh"; sourceTree = "<group>"; };
-		52458A3B2C429ACDF288D57781A754E2 /* stem_ISO_8859_2_hungarian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_2_hungarian.h; sourceTree = "<group>"; };
-		5584AB1A446B29D38B648E06CE0A527A /* stem_ISO_8859_1_norwegian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_norwegian.c; sourceTree = "<group>"; };
-		56348551F0B1D729A72C0D79275EDBC6 /* stem_ISO_8859_1_danish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_danish.c; sourceTree = "<group>"; };
-		563C21460622744F41E762310F644A76 /* stem_UTF_8_swedish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_swedish.h; sourceTree = "<group>"; };
-		5A57A0AE9503F069892BEBC108BCB8C6 /* stem_ISO_8859_1_german.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_german.c; sourceTree = "<group>"; };
-		5AFD9B75811BFB991668F49C7D7D939A /* libstemmer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = libstemmer.c; sourceTree = "<group>"; };
-		5B86A763F051ACF8D015BBE49E40E5DD /* stem_ISO_8859_1_porter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_porter.h; sourceTree = "<group>"; };
-		5C96B1213D6C0FD7A1DE9DD7A92DEA93 /* stem_ISO_8859_1_finnish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_finnish.h; sourceTree = "<group>"; };
-		60C404DD2A5AF4DCA15EC11F6C355C09 /* stem_ISO_8859_1_portuguese.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_portuguese.h; sourceTree = "<group>"; };
-		6100EF8C3C5A0C3B3A3AEE59DE540EE3 /* stem_ISO_8859_1_dutch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_dutch.h; sourceTree = "<group>"; };
-		63F69609D7164922F3C04FF02B446CAD /* Pods-PorterStemmer2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PorterStemmer2_Example-dummy.m"; sourceTree = "<group>"; };
-		6626BE271C96A69A28D9292F35DFB609 /* PorterStemmer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PorterStemmer2.framework; path = PorterStemmer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6663D829F2F69EE48891EA77313955FF /* stem_ISO_8859_1_english.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_english.h; sourceTree = "<group>"; };
-		68E526EC0DE83699DA3F00238B826235 /* stem_ISO_8859_2_hungarian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_2_hungarian.c; sourceTree = "<group>"; };
-		6C5979E6B8434694E86ACD3B49F1902D /* PorterStemmer2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PorterStemmer2-dummy.m"; sourceTree = "<group>"; };
-		6F99DF64494D1D653B97ABDFE047831C /* stem_UTF_8_german.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_german.h; sourceTree = "<group>"; };
-		6FF74E6355C5D45A4AA499FEBF94DD90 /* stem_UTF_8_spanish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_spanish.c; sourceTree = "<group>"; };
-		706726FBC18E51878C044471326393F9 /* stem_ISO_8859_1_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_porter.c; sourceTree = "<group>"; };
-		71FF53FDE1BF007993F48F8D1189C4C2 /* PorterStemmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PorterStemmer.swift; path = PorterStemmer2/Classes/PorterStemmer.swift; sourceTree = "<group>"; };
-		73698A6CF0B90BE302635D7D141BE48E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		74CD5DC8C8558EA8970D1B6A047ED818 /* stem_ISO_8859_1_spanish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_spanish.h; sourceTree = "<group>"; };
-		77647B341E886FB04DB773D6FE9F1A31 /* stem_ISO_8859_2_romanian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_2_romanian.h; sourceTree = "<group>"; };
-		778D20C6D3A693207627813C9A7C6D48 /* stem_UTF_8_italian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_italian.c; sourceTree = "<group>"; };
-		7A0EDC6A543D8909B9095DE7F7ED035F /* stem_ISO_8859_1_spanish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_spanish.c; sourceTree = "<group>"; };
-		7B6E7568F6AEA6BDA54B6E42FAF7A4EE /* stem_UTF_8_french.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_french.h; sourceTree = "<group>"; };
-		7BC59A5E0C2CCB22F73EF08B3485609F /* header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
-		82ECCDC195CEECA8D87381EEE1C06AB9 /* modules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modules.h; sourceTree = "<group>"; };
-		83008FD9E665506F814A6E6F2775AD70 /* Pods_PorterStemmer2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PorterStemmer2_Example.framework; path = "Pods-PorterStemmer2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		873A670EA32512E578A4B46FDBA9DF8D /* PorterStemmer2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PorterStemmer2-umbrella.h"; sourceTree = "<group>"; };
-		889C5697ED37834D400C2DB6CE8F8515 /* stem_ISO_8859_1_english.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_english.c; sourceTree = "<group>"; };
-		8BE05D79B7EF0D1CE34782A33442AF57 /* Pods-PorterStemmer2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example-Info.plist"; sourceTree = "<group>"; };
-		8CAD89E6E52151808E4882252487D2F2 /* stem_UTF_8_danish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_danish.c; sourceTree = "<group>"; };
-		8DDADC11F3AA7B7E108F50E06727B4BC /* Pods-PorterStemmer2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Tests-Info.plist"; sourceTree = "<group>"; };
-		8F60AA6509CB827E510A5C40E39D0650 /* stem_UTF_8_turkish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_turkish.h; sourceTree = "<group>"; };
-		91D9A0FA8DABF184E1E109C00A18CADE /* Pods-PorterStemmer2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PorterStemmer2_Example.modulemap"; sourceTree = "<group>"; };
+		00210990F5CFD53FE1131517C8893775 /* stem_UTF_8_dutch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_dutch.h; sourceTree = "<group>"; };
+		01B5A9C33EB80C14BC2F64D7F1D02DCE /* stem_UTF_8_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_porter.c; sourceTree = "<group>"; };
+		066388A1CF68B93B3B4BE598AEAD5954 /* PorterStemmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PorterStemmer.swift; path = PorterStemmer2/Classes/PorterStemmer.swift; sourceTree = "<group>"; };
+		09CEA31C5C1A8B45A4DF3A8F2975E5A9 /* stem_ISO_8859_1_french.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_french.h; sourceTree = "<group>"; };
+		0B427F261A0AF041031BA361FBD6237B /* Pods-PorterStemmer2_Example_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B8D0E39C6171BC1419BC38B8963D329 /* stem_ISO_8859_1_finnish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_finnish.h; sourceTree = "<group>"; };
+		0D1BE635CE2CDD1AC2E5DD6AF3092894 /* utilities.c */ = {isa = PBXFileReference; includeInIndex = 1; path = utilities.c; sourceTree = "<group>"; };
+		0EDE54AE42EF9B76930276081E8B31AD /* stem_UTF_8_danish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_danish.c; sourceTree = "<group>"; };
+		0F73DB6E714A7B6C104B420639BF61A7 /* stem_ISO_8859_1_swedish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_swedish.h; sourceTree = "<group>"; };
+		10E05106F3BF6ACA0433900D28E0351B /* stem_UTF_8_russian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_russian.c; sourceTree = "<group>"; };
+		11236A5427E2EAC8CD2275F2213CCC6D /* stem_UTF_8_english.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_english.c; sourceTree = "<group>"; };
+		14C3882762438608DDE5585B7EA76719 /* stem_ISO_8859_1_spanish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_spanish.h; sourceTree = "<group>"; };
+		15E175C73D87D9B1F675CF6A7B71A8D6 /* stem_ISO_8859_1_porter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_porter.h; sourceTree = "<group>"; };
+		16987F9A6BA2D5D8713808ACCA5AE5A8 /* Pods-PorterStemmer2_Example_OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_OSX.release.xcconfig"; sourceTree = "<group>"; };
+		175EC9D7ED6F58370776DCCDE5EF8D33 /* stem_ISO_8859_1_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_porter.c; sourceTree = "<group>"; };
+		1AB5748754560AACA496B76759E075DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1C370E7D08599996FADA7DD75A4A078A /* stem_UTF_8_spanish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_spanish.h; sourceTree = "<group>"; };
+		206D8C747E5D6CFA0D6E581CCB26FF29 /* Pods-PorterStemmer2_Example_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PorterStemmer2_Example_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		21650FD4052AD6AB4503C60338D7B146 /* PorterStemmer2-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PorterStemmer2-macOS.xcconfig"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS.xcconfig"; sourceTree = "<group>"; };
+		24842CFB737910542E4C2E5370B09A00 /* Pods_PorterStemmer2_Example_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PorterStemmer2_Example_iOS_Tests.framework; path = "Pods-PorterStemmer2_Example_iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DA657AEA43051C17B4D8D71D39AF8F /* Pods-PorterStemmer2_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2655182A31EEA90E312C14720954A3F6 /* Pods-PorterStemmer2_Example_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27C64E3F477EFA149C84932C47E6A753 /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; path = api.c; sourceTree = "<group>"; };
+		2851C5AB8C562F1843B41E2785B6C880 /* libstemmer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = libstemmer.c; sourceTree = "<group>"; };
+		2DB7C7F88A731712F7A7906BA814B937 /* stem_UTF_8_finnish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_finnish.c; sourceTree = "<group>"; };
+		2DFA1D77DE275ED89D3F20936BDBB98A /* stem_UTF_8_hungarian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_hungarian.h; sourceTree = "<group>"; };
+		335C0D7928AA6596BF3DA123847B05B6 /* stem_UTF_8_turkish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_turkish.c; sourceTree = "<group>"; };
+		3B3ED9EEAFDA899E4C73B05DA22A02B0 /* stem_UTF_8_german.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_german.h; sourceTree = "<group>"; };
+		3DDF35F5BE99E56FA5C45B8F200BD0AD /* Pods-PorterStemmer2_Example_OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PorterStemmer2_Example_OSX-umbrella.h"; sourceTree = "<group>"; };
+		42046F8E29007C3727162344EDA9134F /* Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		426E292A38C0846166804B6B2498411F /* stem_ISO_8859_1_danish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_danish.h; sourceTree = "<group>"; };
+		478A28B2402C510C79112BEA9162D858 /* Pods-PorterStemmer2_Example_OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		493F2406A11B51B88B27612BE04C0B16 /* stem_ISO_8859_1_portuguese.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_portuguese.c; sourceTree = "<group>"; };
+		4A5556DED6AD780F8CC75F2021740405 /* stem_UTF_8_portuguese.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_portuguese.h; sourceTree = "<group>"; };
+		4B062423D074393B4807F8109B6C981B /* Pods-PorterStemmer2_Example_iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		4CFF0873B3A495EBA81B685DBBAAE042 /* modules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modules.h; sourceTree = "<group>"; };
+		51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5238F9750566A379DDF731636F6350B4 /* stem_UTF_8_portuguese.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_portuguese.c; sourceTree = "<group>"; };
+		569F20E5DAAE3DFCF8E0D9D01B7FBC56 /* PorterStemmer2-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "PorterStemmer2-iOS.modulemap"; sourceTree = "<group>"; };
+		58866253FDD1DAE22C6766F4508F11FF /* stem_UTF_8_italian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_italian.c; sourceTree = "<group>"; };
+		593016141D7346D09B2B1602C0F18F6A /* stem_UTF_8_swedish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_swedish.c; sourceTree = "<group>"; };
+		5C61ED28CE2580302548A3D3E89A97C3 /* Pods-PorterStemmer2_Example_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PorterStemmer2_Example_iOS.modulemap"; sourceTree = "<group>"; };
+		5F1ABC2ABC502DE8C6CA82DED830D47C /* Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		60C201756CEC13B6763190413BFDB6EE /* stem_UTF_8_russian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_russian.h; sourceTree = "<group>"; };
+		640B4C1B82B1BB8DCA29C2341AD96A1A /* stem_UTF_8_spanish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_spanish.c; sourceTree = "<group>"; };
+		6475C9CD600E6BA05B83ED3F741F9E24 /* stem_ISO_8859_2_romanian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_2_romanian.c; sourceTree = "<group>"; };
+		6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AC98AE7F0158336F35D2C65AB132FEA /* api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		6D5B749F5A68FFAC9CC1B1055B9A18B7 /* stem_ISO_8859_1_german.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_german.h; sourceTree = "<group>"; };
+		6DE665FA6015869151CAAE6AB2898FBA /* PorterStemmer2-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PorterStemmer2-macOS-prefix.pch"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS-prefix.pch"; sourceTree = "<group>"; };
+		703735719BF623973512740167113FEF /* stem_ISO_8859_1_danish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_danish.c; sourceTree = "<group>"; };
+		70E66CE3F7C274F4A32665FA9B2EAA1D /* stem_ISO_8859_1_swedish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_swedish.c; sourceTree = "<group>"; };
+		7277DE0234C8238339048B775F8D9FDC /* Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		728CC40AC9324C8F9D22390470E05187 /* PorterStemmer2-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PorterStemmer2-iOS.xcconfig"; sourceTree = "<group>"; };
+		740F1174A640394F89F0DA295964BF0F /* stem_ISO_8859_1_dutch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_dutch.h; sourceTree = "<group>"; };
+		75EF6F5B9DF68F8989C5CF7823607EAA /* stem_ISO_8859_1_french.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_french.c; sourceTree = "<group>"; };
+		807AC3058AA5F77059885BE78EACAA15 /* stem_ISO_8859_1_finnish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_finnish.c; sourceTree = "<group>"; };
+		826638EA805692B9E833585239215A1F /* Pods-PorterStemmer2_Example_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		82D85C023ACFBADFD0C6ED22575B6F27 /* Pods_PorterStemmer2_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PorterStemmer2_Example_iOS.framework; path = "Pods-PorterStemmer2_Example_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8390E0785A91A137AF8D3433ED4F1A4D /* stem_UTF_8_german.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_german.c; sourceTree = "<group>"; };
+		83B8A88927D39691DEECEB5B6BB0E90D /* Pods-PorterStemmer2_Example_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PorterStemmer2_Example_iOS-umbrella.h"; sourceTree = "<group>"; };
+		8618BE60A51CA29864D0283F8D6187AE /* stem_KOI8_R_russian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_KOI8_R_russian.h; sourceTree = "<group>"; };
+		88B8980764DC342452D0B3B34B559FB4 /* stem_ISO_8859_1_spanish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_spanish.c; sourceTree = "<group>"; };
+		89185A8338D723446712CECD42E405FB /* stem_UTF_8_norwegian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_norwegian.h; sourceTree = "<group>"; };
+		89D9BAB658CAB23543FD14BE98C7BB48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A82329632FF6E3572B9E222CBAA17CF /* Pods-PorterStemmer2_Example_OSX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_OSX-Info.plist"; sourceTree = "<group>"; };
+		8BC8BF8BACEC8BBF212F5A6F60EF58AA /* PorterStemmer2-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PorterStemmer2-macOS-umbrella.h"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A02490273212CE8D6DDB6B251AF06115 /* stem_UTF_8_norwegian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_norwegian.c; sourceTree = "<group>"; };
-		A8A8896FDC3D7675593B755EA96A6471 /* stem_ISO_8859_1_swedish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_swedish.c; sourceTree = "<group>"; };
-		AA1B8A5603B7B92E07FE743CA937DFEC /* stem_ISO_8859_1_danish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_danish.h; sourceTree = "<group>"; };
-		AE606726E36DD5B5E3327936BC815DF0 /* stem_UTF_8_dutch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_dutch.h; sourceTree = "<group>"; };
-		B0FC1A234FE6E2AB8B75A3D5E4744AB3 /* stem_ISO_8859_1_dutch.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_dutch.c; sourceTree = "<group>"; };
-		B42788054CCB6E758DF66EB7F5C65249 /* stem_KOI8_R_russian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_KOI8_R_russian.h; sourceTree = "<group>"; };
-		B54B73CFC6505C8E709C7D1A57FA0F64 /* PorterStemmer2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PorterStemmer2-Info.plist"; sourceTree = "<group>"; };
-		B555704B99B1D6F82378D63C1B834323 /* stem_UTF_8_hungarian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_hungarian.h; sourceTree = "<group>"; };
-		B6A55B89CA0A18F00E605833377AA5F8 /* stem_UTF_8_porter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_porter.h; sourceTree = "<group>"; };
-		B79FACC337C18DFAAF57B9E74C8D6AEA /* PorterStemmer2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PorterStemmer2.modulemap; sourceTree = "<group>"; };
-		BB1D0F77673FDE6E1037C2F462BDE824 /* stem_ISO_8859_1_norwegian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_norwegian.h; sourceTree = "<group>"; };
-		BD3D03727B86332DE50996FD747BE44A /* Pods-PorterStemmer2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PorterStemmer2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BED3E271BFFA1E506E71D939B124B94F /* stem_UTF_8_english.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_english.h; sourceTree = "<group>"; };
-		C166C24022B9A5215FE1F480094152B8 /* api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
-		C2B28418DC873FDF43F8C208A19D5A15 /* PorterStemmer2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PorterStemmer2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C4215A323E77C3EE8E80D943DA78F118 /* stem_ISO_8859_1_swedish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_swedish.h; sourceTree = "<group>"; };
-		C4393A8EF3241E3906B2CE9543429A13 /* stem_UTF_8_porter.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_porter.c; sourceTree = "<group>"; };
-		C469AC30795C325010492079CF84CCAF /* Pods-PorterStemmer2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDFB28961590BA8E8A1E6A270461A3CC /* libstemmer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libstemmer.h; sourceTree = "<group>"; };
-		D08EA484D421E25F1A3926D5FDD6C841 /* stem_UTF_8_spanish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_spanish.h; sourceTree = "<group>"; };
-		D61DCC3C5FB038AD39C257884C97C43B /* Pods-PorterStemmer2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D8592607245B7EBE6C3805DE27F02883 /* Pods-PorterStemmer2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PorterStemmer2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBAFDEAEA33E83C14651E9A498A50776 /* stem_ISO_8859_1_french.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_french.h; sourceTree = "<group>"; };
-		DD1745113EA7EA52C5E4B478181A8F37 /* Pods-PorterStemmer2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PorterStemmer2_Example-umbrella.h"; sourceTree = "<group>"; };
-		DF23FBEF31AACCD157C79C203BB1C48E /* stem_UTF_8_norwegian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_norwegian.h; sourceTree = "<group>"; };
-		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		DF4F5180FFD3674CF85FC1D68A252381 /* stem_KOI8_R_russian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_KOI8_R_russian.c; sourceTree = "<group>"; };
-		E2F60E79114321DB7AB8138BD9C34837 /* stem_UTF_8_portuguese.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_portuguese.c; sourceTree = "<group>"; };
-		E55B2355E5C418DDC961AACFC81A1227 /* Pods-PorterStemmer2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E608C3C74778908999AFDD8A4F38C635 /* stem_UTF_8_portuguese.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_portuguese.h; sourceTree = "<group>"; };
-		ECC41B4CADB1C6AA09A219D1074AF696 /* stem_UTF_8_russian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_russian.c; sourceTree = "<group>"; };
-		F8DB99B02A3A05AC28DB970865CA1869 /* Pods-PorterStemmer2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PorterStemmer2_Tests.modulemap"; sourceTree = "<group>"; };
-		F93123B724C6742A3D165F60D3E36639 /* stem_UTF_8_swedish.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_swedish.c; sourceTree = "<group>"; };
-		F9D502AA4C3877FEC2B0968432D9D112 /* stem_UTF_8_finnish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_finnish.h; sourceTree = "<group>"; };
-		FA51EC8A263990A9C60FA6D9DC467343 /* stem_UTF_8_dutch.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_dutch.c; sourceTree = "<group>"; };
+		9580E7800A6B8B3BA57C9656F39B69A9 /* stem_UTF_8_norwegian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_norwegian.c; sourceTree = "<group>"; };
+		9690061C85FED0CD2C4AEB70983F1149 /* Pods-PorterStemmer2_Example_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PorterStemmer2_Example_iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		987B30157EDD49F2D2D36A9B28F302A1 /* stem_ISO_8859_1_italian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_italian.h; sourceTree = "<group>"; };
+		994673E3CF8A121E3126E19BC7A90593 /* Pods-PorterStemmer2_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PorterStemmer2_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0B7E5533EC564FBCBFA23FAC5B58CD /* Pods-PorterStemmer2_Example_OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PorterStemmer2_Example_OSX-frameworks.sh"; sourceTree = "<group>"; };
+		9FC0F950829D5AE2AC5A7EB17EDA5254 /* PorterStemmer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PorterStemmer2.framework; path = "PorterStemmer2-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF8D5C69FB1E1CD26ACEB43B32AA754 /* Pods_PorterStemmer2_Example_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PorterStemmer2_Example_OSX.framework; path = "Pods-PorterStemmer2_Example_OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A051E85DC2EDC569A28D3D8F44A07CAD /* stem_ISO_8859_1_italian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_italian.c; sourceTree = "<group>"; };
+		A6D0025EEBD1DF61954D03F78E554BBC /* Pods-PorterStemmer2_Example_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PorterStemmer2_Example_iOS-frameworks.sh"; sourceTree = "<group>"; };
+		A9CF5730E8C2730E51BB3EF5FD67A02E /* stem_UTF_8_turkish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_turkish.h; sourceTree = "<group>"; };
+		AAFE4A12FB632723CE31C5A6A0A6F055 /* stem_UTF_8_danish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_danish.h; sourceTree = "<group>"; };
+		ABFB1DCE79278441473BE5ABDF25DBDB /* stem_UTF_8_romanian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_romanian.h; sourceTree = "<group>"; };
+		ACADED9CD26622A79F8888EA6742C90B /* PorterStemmer2-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "PorterStemmer2-macOS.modulemap"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS.modulemap"; sourceTree = "<group>"; };
+		ADDC724460EBE4669BA4EAD39FCD17BE /* stem_ISO_8859_1_portuguese.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_portuguese.h; sourceTree = "<group>"; };
+		AE24C105FA5BAA90B5D35C623F10A1AE /* stem_UTF_8_french.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_french.c; sourceTree = "<group>"; };
+		B545046FA77A853EDCD21CFAF3764D0B /* stem_UTF_8_italian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_italian.h; sourceTree = "<group>"; };
+		B9101DE4E858CC09386A9C2CCE33AD0C /* stem_UTF_8_french.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_french.h; sourceTree = "<group>"; };
+		BB31ED3F6669ECC46074C5CD00DCADCD /* stem_UTF_8_hungarian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_hungarian.c; sourceTree = "<group>"; };
+		BC007C15EF6C5DF0F37089B617A2B0E9 /* Pods-PorterStemmer2_Example_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PorterStemmer2_Example_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDDD751A6D796AEF7363ABC71A7F079F /* Pods-PorterStemmer2_Example_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_iOS-Info.plist"; sourceTree = "<group>"; };
+		C33A9F3810B14536902DF0C853A246DB /* header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		C42A1D5086D055C789ABF2F37E76A928 /* PorterStemmer2-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PorterStemmer2-iOS-umbrella.h"; sourceTree = "<group>"; };
+		C48A68B06F8EBBB9A4BBEDF2BFAF85A7 /* stem_ISO_8859_1_norwegian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_norwegian.h; sourceTree = "<group>"; };
+		C48E23AD2C8F7C2D80DB83FF2C5CF5D0 /* Pods-PorterStemmer2_Example_OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PorterStemmer2_Example_OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5F6FB166F025B9F86419F96A62E214A /* stem_KOI8_R_russian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_KOI8_R_russian.c; sourceTree = "<group>"; };
+		C7EC300ED07D39179CF2C4D7D4997378 /* stem_UTF_8_swedish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_swedish.h; sourceTree = "<group>"; };
+		CAA9311C7D1693846702C040D6164401 /* PorterStemmer2-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PorterStemmer2-macOS-dummy.m"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS-dummy.m"; sourceTree = "<group>"; };
+		CD43E2141731EC62FBD0BE4330BF6B71 /* PorterStemmer2-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PorterStemmer2-iOS-Info.plist"; sourceTree = "<group>"; };
+		CF13614CA504AB1DB51F672BB072D234 /* Pods-PorterStemmer2_Example_OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PorterStemmer2_Example_OSX.modulemap"; sourceTree = "<group>"; };
+		CFEE36F131081EE44A6C2CFC7C599854 /* stem_ISO_8859_1_english.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_english.c; sourceTree = "<group>"; };
+		D086AEFD78B2406C96FA0FB30E5D8A9F /* stem_ISO_8859_1_dutch.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_dutch.c; sourceTree = "<group>"; };
+		D35C97FD090BA713661719443DB03DEB /* stem_ISO_8859_1_english.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_1_english.h; sourceTree = "<group>"; };
+		D3F44115829A32D7D3E900401725CF6B /* libstemmer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libstemmer.h; sourceTree = "<group>"; };
+		D4E44C3578EA37E3332EF37032BD6C22 /* stem_ISO_8859_1_german.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_german.c; sourceTree = "<group>"; };
+		D7D0A40B4F4BC7062BA263D8FC46CA8D /* PorterStemmer2-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PorterStemmer2-iOS-prefix.pch"; sourceTree = "<group>"; };
+		DA241B3A5F3B8A0315A6643DA25F7ED2 /* stem_ISO_8859_2_romanian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_2_romanian.h; sourceTree = "<group>"; };
+		DCA5ED060381C2CEDF5952F2B5C786B8 /* stem_UTF_8_finnish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_finnish.h; sourceTree = "<group>"; };
+		DCDCB335F9A51EC4C202A7F891FC5433 /* stem_UTF_8_dutch.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_dutch.c; sourceTree = "<group>"; };
+		DDDB228A037AD8A8EEF2570A631F980F /* stem_ISO_8859_2_hungarian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_ISO_8859_2_hungarian.h; sourceTree = "<group>"; };
+		E0B1A994D88E8DD45359F9B0649E1274 /* PorterStemmer2-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "PorterStemmer2-macOS-Info.plist"; path = "../PorterStemmer2-macOS/PorterStemmer2-macOS-Info.plist"; sourceTree = "<group>"; };
+		E45705476C883B6EDDE7CDDB642DB5A4 /* stem_UTF_8_english.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_english.h; sourceTree = "<group>"; };
+		E4CB8DA18E3B0252FCFBC14B447ADD4D /* stem_UTF_8_porter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stem_UTF_8_porter.h; sourceTree = "<group>"; };
+		E5E609574271A85DB8D48B50FEAA6EF1 /* stem_ISO_8859_2_hungarian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_2_hungarian.c; sourceTree = "<group>"; };
+		EAE96CE8E8EDB104E11A9091269EC5AD /* PorterStemmer2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PorterStemmer2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED19759BA7A2906FC4D4278F947C8BD7 /* PorterStemmer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PorterStemmer2.framework; path = "PorterStemmer2-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB23909C7DB6361FE79F223BBA72AE /* PorterStemmer2-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PorterStemmer2-iOS-dummy.m"; sourceTree = "<group>"; };
+		EDCEE8B53E643657AA92C0FFDFA8DCD6 /* Pods-PorterStemmer2_Example_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PorterStemmer2_Example_iOS-dummy.m"; sourceTree = "<group>"; };
+		EE27596C4E8DE395F4020C7394CAF404 /* stem_ISO_8859_1_norwegian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_ISO_8859_1_norwegian.c; sourceTree = "<group>"; };
+		F1D4C6C47CA5AEA163598C62A6F698E9 /* stem_UTF_8_romanian.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stem_UTF_8_romanian.c; sourceTree = "<group>"; };
+		F831244F8BC4F909026D622D3077E2CD /* Pods-PorterStemmer2_Example_OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PorterStemmer2_Example_OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF9B64448268D8D3A7903A50EE5F1D23 /* Pods-PorterStemmer2_Example_OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PorterStemmer2_Example_OSX-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		161FF2BB0E3C5B890B4A55C11EBECB5D /* Frameworks */ = {
+		3747EF96B5DED4EDA93CF77CF30DFA0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940C04DC037464A4F0CB6C18CF7529CA /* Cocoa.framework in Frameworks */,
+				3BD9BD0D5D3D755317F40CBC78725D17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4522B9ECCF0D8B993FDDE7E567498763 /* Frameworks */ = {
+		86E7040E6919ECD06EBE5C05E307FF31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39816A76DFE06C5F4827ACFCF20F1847 /* Cocoa.framework in Frameworks */,
+				80C28845A9548CCDD06E214817EDED5C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E288F8A3D5F495B00AD498CC2E0B2488 /* Frameworks */ = {
+		AD1B12163B578FD1587F4CF4CD5606D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1A2C0A257056064D42AE035A50BC41 /* Cocoa.framework in Frameworks */,
+				6BB108080D2EAD66D3670B0A2D6A0427 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A2AEBA60708081AE18EA73EE58FEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB66EC88A17FBAB051DA14AB20ABB19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEA47D5B62259C0B3A9B959BF568769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D42DAFB92A775AD55D7325C5111426B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		228149164416804D580582E8266C2CA7 /* Support Files */ = {
+		1D32E3C7E5B5D9A4299F7119283CA7D4 /* runtime */ = {
 			isa = PBXGroup;
 			children = (
-				B79FACC337C18DFAAF57B9E74C8D6AEA /* PorterStemmer2.modulemap */,
-				4604E623DD3593ECCA54A2E4851642E9 /* PorterStemmer2.xcconfig */,
-				6C5979E6B8434694E86ACD3B49F1902D /* PorterStemmer2-dummy.m */,
-				B54B73CFC6505C8E709C7D1A57FA0F64 /* PorterStemmer2-Info.plist */,
-				243585DDF624AF4098680316BDD11B53 /* PorterStemmer2-prefix.pch */,
-				873A670EA32512E578A4B46FDBA9DF8D /* PorterStemmer2-umbrella.h */,
+				27C64E3F477EFA149C84932C47E6A753 /* api.c */,
+				6AC98AE7F0158336F35D2C65AB132FEA /* api.h */,
+				C33A9F3810B14536902DF0C853A246DB /* header.h */,
+				0D1BE635CE2CDD1AC2E5DD6AF3092894 /* utilities.c */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PorterStemmer2";
+			name = runtime;
+			path = runtime;
 			sourceTree = "<group>";
 		};
-		30E397551725FCA4A5563CA28600365F /* src_c */ = {
+		1E4490BBB6331135F49A945C586DD668 /* src_c */ = {
 			isa = PBXGroup;
 			children = (
-				56348551F0B1D729A72C0D79275EDBC6 /* stem_ISO_8859_1_danish.c */,
-				AA1B8A5603B7B92E07FE743CA937DFEC /* stem_ISO_8859_1_danish.h */,
-				B0FC1A234FE6E2AB8B75A3D5E4744AB3 /* stem_ISO_8859_1_dutch.c */,
-				6100EF8C3C5A0C3B3A3AEE59DE540EE3 /* stem_ISO_8859_1_dutch.h */,
-				889C5697ED37834D400C2DB6CE8F8515 /* stem_ISO_8859_1_english.c */,
-				6663D829F2F69EE48891EA77313955FF /* stem_ISO_8859_1_english.h */,
-				2B8F09472C98ACA55D250D7F3A1D3A5E /* stem_ISO_8859_1_finnish.c */,
-				5C96B1213D6C0FD7A1DE9DD7A92DEA93 /* stem_ISO_8859_1_finnish.h */,
-				4817EC4C57EFD34509D94FFCD29E60A6 /* stem_ISO_8859_1_french.c */,
-				DBAFDEAEA33E83C14651E9A498A50776 /* stem_ISO_8859_1_french.h */,
-				5A57A0AE9503F069892BEBC108BCB8C6 /* stem_ISO_8859_1_german.c */,
-				12080F900CFC2598DEF692DBA85F8302 /* stem_ISO_8859_1_german.h */,
-				438A2DAC1CFA439FECA633FEC995EC4B /* stem_ISO_8859_1_italian.c */,
-				2A7FC4C8C684AB713B34A94329D594DA /* stem_ISO_8859_1_italian.h */,
-				5584AB1A446B29D38B648E06CE0A527A /* stem_ISO_8859_1_norwegian.c */,
-				BB1D0F77673FDE6E1037C2F462BDE824 /* stem_ISO_8859_1_norwegian.h */,
-				706726FBC18E51878C044471326393F9 /* stem_ISO_8859_1_porter.c */,
-				5B86A763F051ACF8D015BBE49E40E5DD /* stem_ISO_8859_1_porter.h */,
-				29CF9FF014FC05ABFCA34D1AA4D2C371 /* stem_ISO_8859_1_portuguese.c */,
-				60C404DD2A5AF4DCA15EC11F6C355C09 /* stem_ISO_8859_1_portuguese.h */,
-				7A0EDC6A543D8909B9095DE7F7ED035F /* stem_ISO_8859_1_spanish.c */,
-				74CD5DC8C8558EA8970D1B6A047ED818 /* stem_ISO_8859_1_spanish.h */,
-				A8A8896FDC3D7675593B755EA96A6471 /* stem_ISO_8859_1_swedish.c */,
-				C4215A323E77C3EE8E80D943DA78F118 /* stem_ISO_8859_1_swedish.h */,
-				68E526EC0DE83699DA3F00238B826235 /* stem_ISO_8859_2_hungarian.c */,
-				52458A3B2C429ACDF288D57781A754E2 /* stem_ISO_8859_2_hungarian.h */,
-				3C8ACFBCFCA0DC03A3FC809F99DACE8C /* stem_ISO_8859_2_romanian.c */,
-				77647B341E886FB04DB773D6FE9F1A31 /* stem_ISO_8859_2_romanian.h */,
-				DF4F5180FFD3674CF85FC1D68A252381 /* stem_KOI8_R_russian.c */,
-				B42788054CCB6E758DF66EB7F5C65249 /* stem_KOI8_R_russian.h */,
-				8CAD89E6E52151808E4882252487D2F2 /* stem_UTF_8_danish.c */,
-				08E4CC81CA79877B98A144A7251E9468 /* stem_UTF_8_danish.h */,
-				FA51EC8A263990A9C60FA6D9DC467343 /* stem_UTF_8_dutch.c */,
-				AE606726E36DD5B5E3327936BC815DF0 /* stem_UTF_8_dutch.h */,
-				37E1A0D2F80EF6A4A9C3CB71F193E1D8 /* stem_UTF_8_english.c */,
-				BED3E271BFFA1E506E71D939B124B94F /* stem_UTF_8_english.h */,
-				0224605364941030BA09128222F4E114 /* stem_UTF_8_finnish.c */,
-				F9D502AA4C3877FEC2B0968432D9D112 /* stem_UTF_8_finnish.h */,
-				13AE2BBF58FB83DBA76BE0FC8706E06D /* stem_UTF_8_french.c */,
-				7B6E7568F6AEA6BDA54B6E42FAF7A4EE /* stem_UTF_8_french.h */,
-				28EDE2A576902D8F40161FE59F91D75D /* stem_UTF_8_german.c */,
-				6F99DF64494D1D653B97ABDFE047831C /* stem_UTF_8_german.h */,
-				187A3E7D6DE4DF4431C3C25F3AD92BEE /* stem_UTF_8_hungarian.c */,
-				B555704B99B1D6F82378D63C1B834323 /* stem_UTF_8_hungarian.h */,
-				778D20C6D3A693207627813C9A7C6D48 /* stem_UTF_8_italian.c */,
-				31773E6EEE2E58235DA6CA0BAE10DD39 /* stem_UTF_8_italian.h */,
-				A02490273212CE8D6DDB6B251AF06115 /* stem_UTF_8_norwegian.c */,
-				DF23FBEF31AACCD157C79C203BB1C48E /* stem_UTF_8_norwegian.h */,
-				C4393A8EF3241E3906B2CE9543429A13 /* stem_UTF_8_porter.c */,
-				B6A55B89CA0A18F00E605833377AA5F8 /* stem_UTF_8_porter.h */,
-				E2F60E79114321DB7AB8138BD9C34837 /* stem_UTF_8_portuguese.c */,
-				E608C3C74778908999AFDD8A4F38C635 /* stem_UTF_8_portuguese.h */,
-				44DE55AF33D9BFCF5F144278AF989731 /* stem_UTF_8_romanian.c */,
-				045255E53FB792E18EAD7E6ECE710F53 /* stem_UTF_8_romanian.h */,
-				ECC41B4CADB1C6AA09A219D1074AF696 /* stem_UTF_8_russian.c */,
-				2BFB0F6C0A8F4757EDC94BFD3D1127E1 /* stem_UTF_8_russian.h */,
-				6FF74E6355C5D45A4AA499FEBF94DD90 /* stem_UTF_8_spanish.c */,
-				D08EA484D421E25F1A3926D5FDD6C841 /* stem_UTF_8_spanish.h */,
-				F93123B724C6742A3D165F60D3E36639 /* stem_UTF_8_swedish.c */,
-				563C21460622744F41E762310F644A76 /* stem_UTF_8_swedish.h */,
-				0947C9CC838B646B883AD34EA02AD5FA /* stem_UTF_8_turkish.c */,
-				8F60AA6509CB827E510A5C40E39D0650 /* stem_UTF_8_turkish.h */,
+				703735719BF623973512740167113FEF /* stem_ISO_8859_1_danish.c */,
+				426E292A38C0846166804B6B2498411F /* stem_ISO_8859_1_danish.h */,
+				D086AEFD78B2406C96FA0FB30E5D8A9F /* stem_ISO_8859_1_dutch.c */,
+				740F1174A640394F89F0DA295964BF0F /* stem_ISO_8859_1_dutch.h */,
+				CFEE36F131081EE44A6C2CFC7C599854 /* stem_ISO_8859_1_english.c */,
+				D35C97FD090BA713661719443DB03DEB /* stem_ISO_8859_1_english.h */,
+				807AC3058AA5F77059885BE78EACAA15 /* stem_ISO_8859_1_finnish.c */,
+				0B8D0E39C6171BC1419BC38B8963D329 /* stem_ISO_8859_1_finnish.h */,
+				75EF6F5B9DF68F8989C5CF7823607EAA /* stem_ISO_8859_1_french.c */,
+				09CEA31C5C1A8B45A4DF3A8F2975E5A9 /* stem_ISO_8859_1_french.h */,
+				D4E44C3578EA37E3332EF37032BD6C22 /* stem_ISO_8859_1_german.c */,
+				6D5B749F5A68FFAC9CC1B1055B9A18B7 /* stem_ISO_8859_1_german.h */,
+				A051E85DC2EDC569A28D3D8F44A07CAD /* stem_ISO_8859_1_italian.c */,
+				987B30157EDD49F2D2D36A9B28F302A1 /* stem_ISO_8859_1_italian.h */,
+				EE27596C4E8DE395F4020C7394CAF404 /* stem_ISO_8859_1_norwegian.c */,
+				C48A68B06F8EBBB9A4BBEDF2BFAF85A7 /* stem_ISO_8859_1_norwegian.h */,
+				175EC9D7ED6F58370776DCCDE5EF8D33 /* stem_ISO_8859_1_porter.c */,
+				15E175C73D87D9B1F675CF6A7B71A8D6 /* stem_ISO_8859_1_porter.h */,
+				493F2406A11B51B88B27612BE04C0B16 /* stem_ISO_8859_1_portuguese.c */,
+				ADDC724460EBE4669BA4EAD39FCD17BE /* stem_ISO_8859_1_portuguese.h */,
+				88B8980764DC342452D0B3B34B559FB4 /* stem_ISO_8859_1_spanish.c */,
+				14C3882762438608DDE5585B7EA76719 /* stem_ISO_8859_1_spanish.h */,
+				70E66CE3F7C274F4A32665FA9B2EAA1D /* stem_ISO_8859_1_swedish.c */,
+				0F73DB6E714A7B6C104B420639BF61A7 /* stem_ISO_8859_1_swedish.h */,
+				E5E609574271A85DB8D48B50FEAA6EF1 /* stem_ISO_8859_2_hungarian.c */,
+				DDDB228A037AD8A8EEF2570A631F980F /* stem_ISO_8859_2_hungarian.h */,
+				6475C9CD600E6BA05B83ED3F741F9E24 /* stem_ISO_8859_2_romanian.c */,
+				DA241B3A5F3B8A0315A6643DA25F7ED2 /* stem_ISO_8859_2_romanian.h */,
+				C5F6FB166F025B9F86419F96A62E214A /* stem_KOI8_R_russian.c */,
+				8618BE60A51CA29864D0283F8D6187AE /* stem_KOI8_R_russian.h */,
+				0EDE54AE42EF9B76930276081E8B31AD /* stem_UTF_8_danish.c */,
+				AAFE4A12FB632723CE31C5A6A0A6F055 /* stem_UTF_8_danish.h */,
+				DCDCB335F9A51EC4C202A7F891FC5433 /* stem_UTF_8_dutch.c */,
+				00210990F5CFD53FE1131517C8893775 /* stem_UTF_8_dutch.h */,
+				11236A5427E2EAC8CD2275F2213CCC6D /* stem_UTF_8_english.c */,
+				E45705476C883B6EDDE7CDDB642DB5A4 /* stem_UTF_8_english.h */,
+				2DB7C7F88A731712F7A7906BA814B937 /* stem_UTF_8_finnish.c */,
+				DCA5ED060381C2CEDF5952F2B5C786B8 /* stem_UTF_8_finnish.h */,
+				AE24C105FA5BAA90B5D35C623F10A1AE /* stem_UTF_8_french.c */,
+				B9101DE4E858CC09386A9C2CCE33AD0C /* stem_UTF_8_french.h */,
+				8390E0785A91A137AF8D3433ED4F1A4D /* stem_UTF_8_german.c */,
+				3B3ED9EEAFDA899E4C73B05DA22A02B0 /* stem_UTF_8_german.h */,
+				BB31ED3F6669ECC46074C5CD00DCADCD /* stem_UTF_8_hungarian.c */,
+				2DFA1D77DE275ED89D3F20936BDBB98A /* stem_UTF_8_hungarian.h */,
+				58866253FDD1DAE22C6766F4508F11FF /* stem_UTF_8_italian.c */,
+				B545046FA77A853EDCD21CFAF3764D0B /* stem_UTF_8_italian.h */,
+				9580E7800A6B8B3BA57C9656F39B69A9 /* stem_UTF_8_norwegian.c */,
+				89185A8338D723446712CECD42E405FB /* stem_UTF_8_norwegian.h */,
+				01B5A9C33EB80C14BC2F64D7F1D02DCE /* stem_UTF_8_porter.c */,
+				E4CB8DA18E3B0252FCFBC14B447ADD4D /* stem_UTF_8_porter.h */,
+				5238F9750566A379DDF731636F6350B4 /* stem_UTF_8_portuguese.c */,
+				4A5556DED6AD780F8CC75F2021740405 /* stem_UTF_8_portuguese.h */,
+				F1D4C6C47CA5AEA163598C62A6F698E9 /* stem_UTF_8_romanian.c */,
+				ABFB1DCE79278441473BE5ABDF25DBDB /* stem_UTF_8_romanian.h */,
+				10E05106F3BF6ACA0433900D28E0351B /* stem_UTF_8_russian.c */,
+				60C201756CEC13B6763190413BFDB6EE /* stem_UTF_8_russian.h */,
+				640B4C1B82B1BB8DCA29C2341AD96A1A /* stem_UTF_8_spanish.c */,
+				1C370E7D08599996FADA7DD75A4A078A /* stem_UTF_8_spanish.h */,
+				593016141D7346D09B2B1602C0F18F6A /* stem_UTF_8_swedish.c */,
+				C7EC300ED07D39179CF2C4D7D4997378 /* stem_UTF_8_swedish.h */,
+				335C0D7928AA6596BF3DA123847B05B6 /* stem_UTF_8_turkish.c */,
+				A9CF5730E8C2730E51BB3EF5FD67A02E /* stem_UTF_8_turkish.h */,
 			);
 			name = src_c;
 			path = src_c;
 			sourceTree = "<group>";
 		};
+		34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
 		366A21F3F3D547216E3A4BE788B6D13A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D931DBE7D8E9E0D62EB4BF209F4750A /* PorterStemmer2 */,
+				FD0CD29D71C5F48F5BB57842CF861ADE /* PorterStemmer2 */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
+				FA3AAB077231D63C079B0E9C7476D0BC /* iOS */,
+				34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E3A60B0D5442FCE5731035A0C92CE69 /* libstemmer */ = {
+			isa = PBXGroup;
+			children = (
+				2851C5AB8C562F1843B41E2785B6C880 /* libstemmer.c */,
+				4CFF0873B3A495EBA81B685DBBAAE042 /* modules.h */,
+			);
+			name = libstemmer;
+			path = libstemmer;
+			sourceTree = "<group>";
+		};
+		600FF6CD1A8CCD9D15061F523E9D46CF /* Pods-PorterStemmer2_Example_iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9690061C85FED0CD2C4AEB70983F1149 /* Pods-PorterStemmer2_Example_iOS_Tests.modulemap */,
+				42046F8E29007C3727162344EDA9134F /* Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.markdown */,
+				7277DE0234C8238339048B775F8D9FDC /* Pods-PorterStemmer2_Example_iOS_Tests-acknowledgements.plist */,
+				206D8C747E5D6CFA0D6E581CCB26FF29 /* Pods-PorterStemmer2_Example_iOS_Tests-dummy.m */,
+				4B062423D074393B4807F8109B6C981B /* Pods-PorterStemmer2_Example_iOS_Tests-Info.plist */,
+				5F1ABC2ABC502DE8C6CA82DED830D47C /* Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h */,
+				2655182A31EEA90E312C14720954A3F6 /* Pods-PorterStemmer2_Example_iOS_Tests.debug.xcconfig */,
+				0B427F261A0AF041031BA361FBD6237B /* Pods-PorterStemmer2_Example_iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-PorterStemmer2_Example_iOS_Tests";
+			path = "Target Support Files/Pods-PorterStemmer2_Example_iOS_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -342,256 +492,346 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				366A21F3F3D547216E3A4BE788B6D13A /* Development Pods */,
-				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				C47C41E2C159ED0F596999E2BB454CA5 /* Products */,
-				BA1C579A317E0600A287FC9AF8AB4004 /* Targets Support Files */,
+				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
+				EA87EE909C2FDA100EF528BE0610CDDB /* Products */,
+				9D2CC974DF433BD659A2EC1BDB901248 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		819D948C733CFB547CB2DD78EA0E0D84 /* include */ = {
+		9D2CC974DF433BD659A2EC1BDB901248 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDFB28961590BA8E8A1E6A270461A3CC /* libstemmer.h */,
+				A4DC477EE281508C4E3F06156BEA100A /* Pods-PorterStemmer2_Example_iOS */,
+				600FF6CD1A8CCD9D15061F523E9D46CF /* Pods-PorterStemmer2_Example_iOS_Tests */,
+				E76AFFFED92A7D74AB400733B3978BE1 /* Pods-PorterStemmer2_Example_OSX */,
 			);
-			name = include;
-			path = include;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		834115D5921BFF62F1EAB809C51E0114 /* libstemmer */ = {
+		A4DC477EE281508C4E3F06156BEA100A /* Pods-PorterStemmer2_Example_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5AFD9B75811BFB991668F49C7D7D939A /* libstemmer.c */,
-				82ECCDC195CEECA8D87381EEE1C06AB9 /* modules.h */,
+				5C61ED28CE2580302548A3D3E89A97C3 /* Pods-PorterStemmer2_Example_iOS.modulemap */,
+				BC007C15EF6C5DF0F37089B617A2B0E9 /* Pods-PorterStemmer2_Example_iOS-acknowledgements.markdown */,
+				826638EA805692B9E833585239215A1F /* Pods-PorterStemmer2_Example_iOS-acknowledgements.plist */,
+				EDCEE8B53E643657AA92C0FFDFA8DCD6 /* Pods-PorterStemmer2_Example_iOS-dummy.m */,
+				A6D0025EEBD1DF61954D03F78E554BBC /* Pods-PorterStemmer2_Example_iOS-frameworks.sh */,
+				BDDD751A6D796AEF7363ABC71A7F079F /* Pods-PorterStemmer2_Example_iOS-Info.plist */,
+				83B8A88927D39691DEECEB5B6BB0E90D /* Pods-PorterStemmer2_Example_iOS-umbrella.h */,
+				994673E3CF8A121E3126E19BC7A90593 /* Pods-PorterStemmer2_Example_iOS.debug.xcconfig */,
+				25DA657AEA43051C17B4D8D71D39AF8F /* Pods-PorterStemmer2_Example_iOS.release.xcconfig */,
 			);
-			name = libstemmer;
-			path = libstemmer;
+			name = "Pods-PorterStemmer2_Example_iOS";
+			path = "Target Support Files/Pods-PorterStemmer2_Example_iOS";
 			sourceTree = "<group>";
 		};
-		8FA9D9E193CEE1671C6A0445D1398254 /* Stemmer */ = {
+		C31273BE4A8E69C5B3B8341B9D351D8D /* Stemmer */ = {
 			isa = PBXGroup;
 			children = (
-				819D948C733CFB547CB2DD78EA0E0D84 /* include */,
-				834115D5921BFF62F1EAB809C51E0114 /* libstemmer */,
-				EEE95DB16ED5DE7B18F2EEED8F7D2978 /* runtime */,
-				30E397551725FCA4A5563CA28600365F /* src_c */,
+				D2AAC25CE89645FE1C978199B3C4C7D6 /* include */,
+				5E3A60B0D5442FCE5731035A0C92CE69 /* libstemmer */,
+				1D32E3C7E5B5D9A4299F7119283CA7D4 /* runtime */,
+				1E4490BBB6331135F49A945C586DD668 /* src_c */,
 			);
 			name = Stemmer;
 			path = PorterStemmer2/Classes/Stemmer;
 			sourceTree = "<group>";
 		};
-		9D931DBE7D8E9E0D62EB4BF209F4750A /* PorterStemmer2 */ = {
+		CF375D5CAE1DDDBB2CFB98E53886E234 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				71FF53FDE1BF007993F48F8D1189C4C2 /* PorterStemmer.swift */,
-				F015D7ACF6CF2B0555B16A2D0440A390 /* Pod */,
-				8FA9D9E193CEE1671C6A0445D1398254 /* Stemmer */,
-				228149164416804D580582E8266C2CA7 /* Support Files */,
+				1AB5748754560AACA496B76759E075DE /* LICENSE */,
+				EAE96CE8E8EDB104E11A9091269EC5AD /* PorterStemmer2.podspec */,
+				89D9BAB658CAB23543FD14BE98C7BB48 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D2AAC25CE89645FE1C978199B3C4C7D6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D3F44115829A32D7D3E900401725CF6B /* libstemmer.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		E76AFFFED92A7D74AB400733B3978BE1 /* Pods-PorterStemmer2_Example_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				CF13614CA504AB1DB51F672BB072D234 /* Pods-PorterStemmer2_Example_OSX.modulemap */,
+				C48E23AD2C8F7C2D80DB83FF2C5CF5D0 /* Pods-PorterStemmer2_Example_OSX-acknowledgements.markdown */,
+				F831244F8BC4F909026D622D3077E2CD /* Pods-PorterStemmer2_Example_OSX-acknowledgements.plist */,
+				FF9B64448268D8D3A7903A50EE5F1D23 /* Pods-PorterStemmer2_Example_OSX-dummy.m */,
+				9F0B7E5533EC564FBCBFA23FAC5B58CD /* Pods-PorterStemmer2_Example_OSX-frameworks.sh */,
+				8A82329632FF6E3572B9E222CBAA17CF /* Pods-PorterStemmer2_Example_OSX-Info.plist */,
+				3DDF35F5BE99E56FA5C45B8F200BD0AD /* Pods-PorterStemmer2_Example_OSX-umbrella.h */,
+				478A28B2402C510C79112BEA9162D858 /* Pods-PorterStemmer2_Example_OSX.debug.xcconfig */,
+				16987F9A6BA2D5D8713808ACCA5AE5A8 /* Pods-PorterStemmer2_Example_OSX.release.xcconfig */,
+			);
+			name = "Pods-PorterStemmer2_Example_OSX";
+			path = "Target Support Files/Pods-PorterStemmer2_Example_OSX";
+			sourceTree = "<group>";
+		};
+		E7D8AAA6A4132B87851412B4279713AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				569F20E5DAAE3DFCF8E0D9D01B7FBC56 /* PorterStemmer2-iOS.modulemap */,
+				728CC40AC9324C8F9D22390470E05187 /* PorterStemmer2-iOS.xcconfig */,
+				EDCB23909C7DB6361FE79F223BBA72AE /* PorterStemmer2-iOS-dummy.m */,
+				CD43E2141731EC62FBD0BE4330BF6B71 /* PorterStemmer2-iOS-Info.plist */,
+				D7D0A40B4F4BC7062BA263D8FC46CA8D /* PorterStemmer2-iOS-prefix.pch */,
+				C42A1D5086D055C789ABF2F37E76A928 /* PorterStemmer2-iOS-umbrella.h */,
+				ACADED9CD26622A79F8888EA6742C90B /* PorterStemmer2-macOS.modulemap */,
+				21650FD4052AD6AB4503C60338D7B146 /* PorterStemmer2-macOS.xcconfig */,
+				CAA9311C7D1693846702C040D6164401 /* PorterStemmer2-macOS-dummy.m */,
+				E0B1A994D88E8DD45359F9B0649E1274 /* PorterStemmer2-macOS-Info.plist */,
+				6DE665FA6015869151CAAE6AB2898FBA /* PorterStemmer2-macOS-prefix.pch */,
+				8BC8BF8BACEC8BBF212F5A6F60EF58AA /* PorterStemmer2-macOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PorterStemmer2-iOS";
+			sourceTree = "<group>";
+		};
+		EA87EE909C2FDA100EF528BE0610CDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D85C023ACFBADFD0C6ED22575B6F27 /* Pods_PorterStemmer2_Example_iOS.framework */,
+				24842CFB737910542E4C2E5370B09A00 /* Pods_PorterStemmer2_Example_iOS_Tests.framework */,
+				9FF8D5C69FB1E1CD26ACEB43B32AA754 /* Pods_PorterStemmer2_Example_OSX.framework */,
+				9FC0F950829D5AE2AC5A7EB17EDA5254 /* PorterStemmer2.framework */,
+				ED19759BA7A2906FC4D4278F947C8BD7 /* PorterStemmer2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3AAB077231D63C079B0E9C7476D0BC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD0CD29D71C5F48F5BB57842CF861ADE /* PorterStemmer2 */ = {
+			isa = PBXGroup;
+			children = (
+				066388A1CF68B93B3B4BE598AEAD5954 /* PorterStemmer.swift */,
+				CF375D5CAE1DDDBB2CFB98E53886E234 /* Pod */,
+				C31273BE4A8E69C5B3B8341B9D351D8D /* Stemmer */,
+				E7D8AAA6A4132B87851412B4279713AA /* Support Files */,
 			);
 			name = PorterStemmer2;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A2B8B9B0CE81229B27D5528ABA27AADE /* Pods-PorterStemmer2_Example */ = {
-			isa = PBXGroup;
-			children = (
-				91D9A0FA8DABF184E1E109C00A18CADE /* Pods-PorterStemmer2_Example.modulemap */,
-				D8592607245B7EBE6C3805DE27F02883 /* Pods-PorterStemmer2_Example-acknowledgements.markdown */,
-				C469AC30795C325010492079CF84CCAF /* Pods-PorterStemmer2_Example-acknowledgements.plist */,
-				63F69609D7164922F3C04FF02B446CAD /* Pods-PorterStemmer2_Example-dummy.m */,
-				4844DD889BAA0D0BF95179C37AEB8BFF /* Pods-PorterStemmer2_Example-frameworks.sh */,
-				8BE05D79B7EF0D1CE34782A33442AF57 /* Pods-PorterStemmer2_Example-Info.plist */,
-				DD1745113EA7EA52C5E4B478181A8F37 /* Pods-PorterStemmer2_Example-umbrella.h */,
-				D61DCC3C5FB038AD39C257884C97C43B /* Pods-PorterStemmer2_Example.debug.xcconfig */,
-				E55B2355E5C418DDC961AACFC81A1227 /* Pods-PorterStemmer2_Example.release.xcconfig */,
-			);
-			name = "Pods-PorterStemmer2_Example";
-			path = "Target Support Files/Pods-PorterStemmer2_Example";
-			sourceTree = "<group>";
-		};
-		BA1C579A317E0600A287FC9AF8AB4004 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A2B8B9B0CE81229B27D5528ABA27AADE /* Pods-PorterStemmer2_Example */,
-				F2ACAE2314527998FFB028714CBB2E20 /* Pods-PorterStemmer2_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C47C41E2C159ED0F596999E2BB454CA5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83008FD9E665506F814A6E6F2775AD70 /* Pods_PorterStemmer2_Example.framework */,
-				4087861E88F576F3E3CDF2C93AD2EA33 /* Pods_PorterStemmer2_Tests.framework */,
-				6626BE271C96A69A28D9292F35DFB609 /* PorterStemmer2.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EEE95DB16ED5DE7B18F2EEED8F7D2978 /* runtime */ = {
-			isa = PBXGroup;
-			children = (
-				0C0E9DCDA94AD74F738A6B6880F9DD50 /* api.c */,
-				C166C24022B9A5215FE1F480094152B8 /* api.h */,
-				7BC59A5E0C2CCB22F73EF08B3485609F /* header.h */,
-				30E9B0E8B3AA8466D8BCE3985FD472F9 /* utilities.c */,
-			);
-			name = runtime;
-			path = runtime;
-			sourceTree = "<group>";
-		};
-		F015D7ACF6CF2B0555B16A2D0440A390 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				35ADB6F35FC1B1CDBBD751CCC0D1CFDA /* LICENSE */,
-				C2B28418DC873FDF43F8C208A19D5A15 /* PorterStemmer2.podspec */,
-				73698A6CF0B90BE302635D7D141BE48E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F2ACAE2314527998FFB028714CBB2E20 /* Pods-PorterStemmer2_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F8DB99B02A3A05AC28DB970865CA1869 /* Pods-PorterStemmer2_Tests.modulemap */,
-				03800B3B08810068198065DAD5B68BEE /* Pods-PorterStemmer2_Tests-acknowledgements.markdown */,
-				196AF9E146335A148FFEF37EE2BC4A71 /* Pods-PorterStemmer2_Tests-acknowledgements.plist */,
-				2BB1D27151D3667290863F78105DDE9B /* Pods-PorterStemmer2_Tests-dummy.m */,
-				8DDADC11F3AA7B7E108F50E06727B4BC /* Pods-PorterStemmer2_Tests-Info.plist */,
-				BD3D03727B86332DE50996FD747BE44A /* Pods-PorterStemmer2_Tests-umbrella.h */,
-				261D048AAF7A164C9DC07EE689C1768A /* Pods-PorterStemmer2_Tests.debug.xcconfig */,
-				3625C889EC7E68B56F7F19D70200434D /* Pods-PorterStemmer2_Tests.release.xcconfig */,
-			);
-			name = "Pods-PorterStemmer2_Tests";
-			path = "Target Support Files/Pods-PorterStemmer2_Tests";
-			sourceTree = "<group>";
-		};
-		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		803DA6D58B090E3C1674E5977C40B565 /* Headers */ = {
+		217E5632674A05FFDCA16F9AAA1D5D54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E765713596F07C328FC14AA014D6048 /* Pods-PorterStemmer2_Example-umbrella.h in Headers */,
+				8D75370E443419F26BBEC948D7BC5E64 /* Pods-PorterStemmer2_Example_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		827F6C3B992E2111E55DBA2F7418C970 /* Headers */ = {
+		46D4430A78CDB917003118E80A226D37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B67454A28E22C9FFF7251416BC65AC /* api.h in Headers */,
-				58438AAA266ADBBDCF4C4B1B4499D7D3 /* header.h in Headers */,
-				E8C90FC20258B4CE72A25C71427F432F /* libstemmer.h in Headers */,
-				A65585684B47D993730D6AF635435A33 /* modules.h in Headers */,
-				C58A428D8C881BEF7CF5C1282C969350 /* PorterStemmer2-umbrella.h in Headers */,
-				83ADEF1EE907D3F2670F8B2B3388C8F5 /* stem_ISO_8859_1_danish.h in Headers */,
-				DFDA25ACE271DCF37B7A4D5BF0EB67CA /* stem_ISO_8859_1_dutch.h in Headers */,
-				2CD9FC6F716F5BEE75CB9EA596502431 /* stem_ISO_8859_1_english.h in Headers */,
-				1CAABE6A4D8AD4B38CBB8922E78EC5C3 /* stem_ISO_8859_1_finnish.h in Headers */,
-				0C0C14215624686BB1FB03D3D811E1C7 /* stem_ISO_8859_1_french.h in Headers */,
-				4B21D0D701CC8C0169E8C0343ABA97FA /* stem_ISO_8859_1_german.h in Headers */,
-				0E5E39E1A58E6225C68B68A16423D9D4 /* stem_ISO_8859_1_italian.h in Headers */,
-				5F42BC3ED1D143BA190C065CEF71DEAD /* stem_ISO_8859_1_norwegian.h in Headers */,
-				81A550A9362048BB0247C91EFB3A5BD5 /* stem_ISO_8859_1_porter.h in Headers */,
-				4651AFA3050A2DC45003D0E94FAD34FA /* stem_ISO_8859_1_portuguese.h in Headers */,
-				B1A457B982B67098224E7755C62C746D /* stem_ISO_8859_1_spanish.h in Headers */,
-				1CC9AB220CB3347E154AA8D1A0B37EC6 /* stem_ISO_8859_1_swedish.h in Headers */,
-				C96DB88E4B003381E7139771FF761775 /* stem_ISO_8859_2_hungarian.h in Headers */,
-				DFEF435B663EA79AE6DD16D58240712A /* stem_ISO_8859_2_romanian.h in Headers */,
-				574554F930715C672941A0AAAB402572 /* stem_KOI8_R_russian.h in Headers */,
-				361DDB899B559FE6F00A9155DAD2EB68 /* stem_UTF_8_danish.h in Headers */,
-				193A3E12B5EC3A203EB71934163C57D1 /* stem_UTF_8_dutch.h in Headers */,
-				BF35C23674752CFCF05D56907264B1DF /* stem_UTF_8_english.h in Headers */,
-				196FBFBB4E35F3700B3B6F31B3587B52 /* stem_UTF_8_finnish.h in Headers */,
-				33E90929D6DDA387C252943F9C7B779E /* stem_UTF_8_french.h in Headers */,
-				6BEA4D1F07D729B7190FC337B7C1D9EA /* stem_UTF_8_german.h in Headers */,
-				CCBD3C14D06D122B5822ED18A4D19E0E /* stem_UTF_8_hungarian.h in Headers */,
-				A95EA5D591B4858217499A3F6AC9D4FF /* stem_UTF_8_italian.h in Headers */,
-				167A5930258E5368C546A152D6C84873 /* stem_UTF_8_norwegian.h in Headers */,
-				D9CE888367320A6F8605F5240538D4BE /* stem_UTF_8_porter.h in Headers */,
-				2AEA01A636FF3BDCC6F62AC84AF40BAE /* stem_UTF_8_portuguese.h in Headers */,
-				91E0834323521ACE939A7F0C79AD3B03 /* stem_UTF_8_romanian.h in Headers */,
-				A65ABD20765C2DFECD843328B7BC1FB7 /* stem_UTF_8_russian.h in Headers */,
-				22EA55FAC6F95D4C8502F5264EA38082 /* stem_UTF_8_spanish.h in Headers */,
-				E10CA0B9C8FD0501450C13B57AC78E0E /* stem_UTF_8_swedish.h in Headers */,
-				52404F539272BA29E430F942B56AA9B3 /* stem_UTF_8_turkish.h in Headers */,
+				24A49C2D4B1A505F6904F48DC42B6A34 /* api.h in Headers */,
+				87F17FD1419AA2F3D79416AD35EF6C02 /* header.h in Headers */,
+				F356B52D90D9CAD528BEE211230EEF12 /* libstemmer.h in Headers */,
+				AC4A43BBDADB0C438257F60FA70ABA34 /* modules.h in Headers */,
+				A50D43511F40E7B564438561CC54D995 /* PorterStemmer2-iOS-umbrella.h in Headers */,
+				6D58B35EF030F2D2DF5217C954A76FBD /* stem_ISO_8859_1_danish.h in Headers */,
+				CAA4305C0572D15C1DF48E093977D621 /* stem_ISO_8859_1_dutch.h in Headers */,
+				8E8C969EA01CDEDF798767C8BA6F4CBF /* stem_ISO_8859_1_english.h in Headers */,
+				BCE0CF04BF0EF5434E7D78DA8D0A40FC /* stem_ISO_8859_1_finnish.h in Headers */,
+				D1A24DEE3238D93104F320EC21C3F8D4 /* stem_ISO_8859_1_french.h in Headers */,
+				4095F3A55DFEB948A7988EE9163BD8DF /* stem_ISO_8859_1_german.h in Headers */,
+				D3C427617557463212F54423F8DC00BF /* stem_ISO_8859_1_italian.h in Headers */,
+				E00989240550B6A3B25F1882FAC29805 /* stem_ISO_8859_1_norwegian.h in Headers */,
+				681B11117C93F4485405FABA94670B2A /* stem_ISO_8859_1_porter.h in Headers */,
+				CCFF717FA376203F60EAFA6E05C0D542 /* stem_ISO_8859_1_portuguese.h in Headers */,
+				F86E68C09F3610325C09C60A40D9A373 /* stem_ISO_8859_1_spanish.h in Headers */,
+				2915A09F2CF1F108402846734F2186C4 /* stem_ISO_8859_1_swedish.h in Headers */,
+				845FAC901F9CDD04D5C921D0589A74AC /* stem_ISO_8859_2_hungarian.h in Headers */,
+				0C756941BCD47E1739CB978D43F7C4E1 /* stem_ISO_8859_2_romanian.h in Headers */,
+				B58D3D38082E2AF82BEB9EEE1AB2A619 /* stem_KOI8_R_russian.h in Headers */,
+				F0F460BD9FE9EC816E682F18B2066CFB /* stem_UTF_8_danish.h in Headers */,
+				5ED49B4B4538C6E00C7B521DC968DD06 /* stem_UTF_8_dutch.h in Headers */,
+				47A0EBCB0474814952175027ECF09B00 /* stem_UTF_8_english.h in Headers */,
+				918347547F9BFEFFAC5B06758FCD82BF /* stem_UTF_8_finnish.h in Headers */,
+				1871317DCE794794018E2CE77FB08E3F /* stem_UTF_8_french.h in Headers */,
+				FB99867D19BE6AABFDB5FF5455E30068 /* stem_UTF_8_german.h in Headers */,
+				BFE8C896B0E41FD5375E23BECD751E17 /* stem_UTF_8_hungarian.h in Headers */,
+				F00540B351088007FBE562A56D6A5B09 /* stem_UTF_8_italian.h in Headers */,
+				FDBF0D545711B02AE8594292E06F7182 /* stem_UTF_8_norwegian.h in Headers */,
+				DA76AD6C4A4D9D83A64C9A156BB27E77 /* stem_UTF_8_porter.h in Headers */,
+				A6A685AFAED3E7901830CB70262EF361 /* stem_UTF_8_portuguese.h in Headers */,
+				3D0FC3DE6E844D7851D50AE9C46E6C09 /* stem_UTF_8_romanian.h in Headers */,
+				C0D83F11E058D6F1EF64263A809EEBA5 /* stem_UTF_8_russian.h in Headers */,
+				88F385759F8C3D38306E3065FE9E2AAF /* stem_UTF_8_spanish.h in Headers */,
+				C6A16CBCAD0CEE0E8F50BE0E7750BC83 /* stem_UTF_8_swedish.h in Headers */,
+				7C5070B2F0C4F4339E60B573CD967FE7 /* stem_UTF_8_turkish.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1AD4C65C10A84DE5BB6CF6C394D1D24 /* Headers */ = {
+		538603EAA0BC295386E52BFBDE3DA1EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D79C41ECEC2EA7F7B475511FA16B9C5 /* Pods-PorterStemmer2_Tests-umbrella.h in Headers */,
+				83AD8A71A57FF966C34C9A67D13AE537 /* api.h in Headers */,
+				90D35106D77956B0A5FDBF1547C02706 /* header.h in Headers */,
+				8487FCF09CF8AA14581079EFD21078EC /* libstemmer.h in Headers */,
+				83C4878BBB4ED4C4196C4FE5EA8D2AFF /* modules.h in Headers */,
+				A1841CF30066FCC6776DF8BCFAE7F2B6 /* PorterStemmer2-macOS-umbrella.h in Headers */,
+				83E0F1863471261E4776DDA50770802A /* stem_ISO_8859_1_danish.h in Headers */,
+				ADB65B1FA5012C0B34F75B8C0B78FA13 /* stem_ISO_8859_1_dutch.h in Headers */,
+				3AE9F099B52E6FE49B34732F447A7B04 /* stem_ISO_8859_1_english.h in Headers */,
+				A330EFC527F8F48F918EE41F4B295468 /* stem_ISO_8859_1_finnish.h in Headers */,
+				4BE2FE36D6C7D2B764B074BD737F0EFF /* stem_ISO_8859_1_french.h in Headers */,
+				0BD16E1988F8B18B65853C15E42BAD02 /* stem_ISO_8859_1_german.h in Headers */,
+				EEAB5DE147EC12525A7C6B5D8FD20B10 /* stem_ISO_8859_1_italian.h in Headers */,
+				CC1F8B67F3A736E6CC3366EF191B8532 /* stem_ISO_8859_1_norwegian.h in Headers */,
+				2FBC1AE421D2A2F6D0530B87276ABD3F /* stem_ISO_8859_1_porter.h in Headers */,
+				8467D64D662DE55043B9FE9AF52430C8 /* stem_ISO_8859_1_portuguese.h in Headers */,
+				195D73EAC177A5767E9D498409AA7426 /* stem_ISO_8859_1_spanish.h in Headers */,
+				1FB9CB79D028D6642CD1198605181187 /* stem_ISO_8859_1_swedish.h in Headers */,
+				027C1B1964936A4B14EDA1437E21866B /* stem_ISO_8859_2_hungarian.h in Headers */,
+				B95DA81A6033D8A415FAA07DB3EA82F9 /* stem_ISO_8859_2_romanian.h in Headers */,
+				2ECB6CF0AC64D81F237AF84F524DE4C3 /* stem_KOI8_R_russian.h in Headers */,
+				2C967F77EBBDC429D68D9BD90619D214 /* stem_UTF_8_danish.h in Headers */,
+				FC7CDC0617D545FD5AB14145A4EF69E6 /* stem_UTF_8_dutch.h in Headers */,
+				A7477C39E784679A15A0F3830D0473E4 /* stem_UTF_8_english.h in Headers */,
+				50213B5F99B8ABC5A3DCB0C876BF6DE9 /* stem_UTF_8_finnish.h in Headers */,
+				9C1B93E3A53D3912CD6703B07918A70B /* stem_UTF_8_french.h in Headers */,
+				8BF7A514FC90A0190E5E8B32AA796FFF /* stem_UTF_8_german.h in Headers */,
+				FCEC0593BEB8B789262F0F78468157F1 /* stem_UTF_8_hungarian.h in Headers */,
+				97856310FF4D8A9D006FFEB75875C0BA /* stem_UTF_8_italian.h in Headers */,
+				365AD6DD4F9208DE12BAB3DCF703F9FF /* stem_UTF_8_norwegian.h in Headers */,
+				E2FDF52CC2DDA9D242B37B3A9BBB8B51 /* stem_UTF_8_porter.h in Headers */,
+				12DC86E20F4BEC23A20E20E6AC283D36 /* stem_UTF_8_portuguese.h in Headers */,
+				80176D3D17F159C733DA05E9AD1AFB89 /* stem_UTF_8_romanian.h in Headers */,
+				3D6DEB01F295902C6E522BFE6BAAF0A2 /* stem_UTF_8_russian.h in Headers */,
+				5DACEEF8657DAAB1D413F90903DE2057 /* stem_UTF_8_spanish.h in Headers */,
+				4F6B4D8E53AD174A9A03443782CBFD1E /* stem_UTF_8_swedish.h in Headers */,
+				9F61C7C2DA85481978BF70ABD8D0E2B5 /* stem_UTF_8_turkish.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66881DA2C6BE22FA79861623577EBBDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F40B37F0740760D27131ADE2B86BF0 /* Pods-PorterStemmer2_Example_OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6794D67985BE723D9CACB461C54BA582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B40237C3D9DBB6B491550F6CD73CDD /* Pods-PorterStemmer2_Example_iOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A45E0C65F48FC6C2159765DD2064AE9 /* Pods-PorterStemmer2_Example */ = {
+		4CDC6571C8541BDD99F0A5288156250B /* Pods-PorterStemmer2_Example_OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5F499C47B70AA795C74214D77D3193B /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example" */;
+			buildConfigurationList = C09AE3AA4E800F570E74CE61E0ADD62F /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_OSX" */;
 			buildPhases = (
-				803DA6D58B090E3C1674E5977C40B565 /* Headers */,
-				3B213AAF5AB5A81137D2F39C0DDD974D /* Sources */,
-				161FF2BB0E3C5B890B4A55C11EBECB5D /* Frameworks */,
-				E581F9824D9235B312B06C96258C0E3D /* Resources */,
+				66881DA2C6BE22FA79861623577EBBDA /* Headers */,
+				4C4664C5FC184D4BD97C56DA1B671546 /* Sources */,
+				C1A2AEBA60708081AE18EA73EE58FEE1 /* Frameworks */,
+				7E0919881069C9C310E9A7FD49F8EA7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D973BE99E34593E17CC94DF553EAE923 /* PBXTargetDependency */,
+				A29A0F89413635E19A693A0AEADCA14A /* PBXTargetDependency */,
 			);
-			name = "Pods-PorterStemmer2_Example";
-			productName = "Pods-PorterStemmer2_Example";
-			productReference = 83008FD9E665506F814A6E6F2775AD70 /* Pods_PorterStemmer2_Example.framework */;
+			name = "Pods-PorterStemmer2_Example_OSX";
+			productName = "Pods-PorterStemmer2_Example_OSX";
+			productReference = 9FF8D5C69FB1E1CD26ACEB43B32AA754 /* Pods_PorterStemmer2_Example_OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5CFBA2D82F17D931F6CFC9112839B260 /* Pods-PorterStemmer2_Tests */ = {
+		8C099A105698277FAF650B6606E4DB6D /* PorterStemmer2-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E91BB59EF19A66150FA9EA470BF06C6 /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Tests" */;
+			buildConfigurationList = 0D3CFB93074CB9A38ABD94D7C17EFB02 /* Build configuration list for PBXNativeTarget "PorterStemmer2-macOS" */;
 			buildPhases = (
-				D1AD4C65C10A84DE5BB6CF6C394D1D24 /* Headers */,
-				033CC0BD4FB32D6FC1B0BFB7CD00EBB6 /* Sources */,
-				4522B9ECCF0D8B993FDDE7E567498763 /* Frameworks */,
-				E52B9CFBE185F62ECA6E6B33BE2939C1 /* Resources */,
+				538603EAA0BC295386E52BFBDE3DA1EF /* Headers */,
+				A4D3AEFFAD009852BC5F3B263676CB3E /* Sources */,
+				86E7040E6919ECD06EBE5C05E307FF31 /* Frameworks */,
+				52436FA216A70DF10687091DEAF69F9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3C44D46E2BDD4BF10B03EE9254DB2C19 /* PBXTargetDependency */,
 			);
-			name = "Pods-PorterStemmer2_Tests";
-			productName = "Pods-PorterStemmer2_Tests";
-			productReference = 4087861E88F576F3E3CDF2C93AD2EA33 /* Pods_PorterStemmer2_Tests.framework */;
+			name = "PorterStemmer2-macOS";
+			productName = "PorterStemmer2-macOS";
+			productReference = ED19759BA7A2906FC4D4278F947C8BD7 /* PorterStemmer2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B21AED28B62FDDBD489397C62D32DDA6 /* PorterStemmer2 */ = {
+		9B25B9BA66BB4DF71887CE6EA1A27826 /* Pods-PorterStemmer2_Example_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59046EFB965CB5AB0DADFFBDD5167211 /* Build configuration list for PBXNativeTarget "PorterStemmer2" */;
+			buildConfigurationList = F1D9F65D7A4BE86A56D00BD607F3CAF3 /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_iOS" */;
 			buildPhases = (
-				827F6C3B992E2111E55DBA2F7418C970 /* Headers */,
-				5D1C94D88663A03EC9F91B03C2494A01 /* Sources */,
-				E288F8A3D5F495B00AD498CC2E0B2488 /* Frameworks */,
-				A7ED10F3F8D746E7DA56BC285B525B02 /* Resources */,
+				217E5632674A05FFDCA16F9AAA1D5D54 /* Headers */,
+				A093A2DD463C7256C0F97C342A4DDCC7 /* Sources */,
+				3747EF96B5DED4EDA93CF77CF30DFA0E /* Frameworks */,
+				580C4D910BCE4E1D6CBC2EA49A5F6765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F776C958F6BFB663C61A5083C9EB2D6F /* PBXTargetDependency */,
+			);
+			name = "Pods-PorterStemmer2_Example_iOS";
+			productName = "Pods-PorterStemmer2_Example_iOS";
+			productReference = 82D85C023ACFBADFD0C6ED22575B6F27 /* Pods_PorterStemmer2_Example_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA502DB4669ADFB0EFABBF05EF89C190 /* PorterStemmer2-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A092F939E75A07E96F349B290CB696C /* Build configuration list for PBXNativeTarget "PorterStemmer2-iOS" */;
+			buildPhases = (
+				46D4430A78CDB917003118E80A226D37 /* Headers */,
+				5D0D3940FD26E091C1504E3E147941EB /* Sources */,
+				AD1B12163B578FD1587F4CF4CD5606D9 /* Frameworks */,
+				BD0DD43491A813488517DAF598D8A7C2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PorterStemmer2;
-			productName = PorterStemmer2;
-			productReference = 6626BE271C96A69A28D9292F35DFB609 /* PorterStemmer2.framework */;
+			name = "PorterStemmer2-iOS";
+			productName = "PorterStemmer2-iOS";
+			productReference = 9FC0F950829D5AE2AC5A7EB17EDA5254 /* PorterStemmer2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9BB1D59B2AC23348CFBA7BB0E7C582A /* Pods-PorterStemmer2_Example_iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA28CD46BC24CC5FD5B46FCC7CFC9FA /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_iOS_Tests" */;
+			buildPhases = (
+				6794D67985BE723D9CACB461C54BA582 /* Headers */,
+				D6E8538E9EF8628A201C831DCFCA78D4 /* Sources */,
+				FDEA47D5B62259C0B3A9B959BF568769 /* Frameworks */,
+				4A026605D8D020483A453CB2F3E946E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEA9AB26F9AB469171FD4260327A14E /* PBXTargetDependency */,
+			);
+			name = "Pods-PorterStemmer2_Example_iOS_Tests";
+			productName = "Pods-PorterStemmer2_Example_iOS_Tests";
+			productReference = 24842CFB737910542E4C2E5370B09A00 /* Pods_PorterStemmer2_Example_iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -611,33 +851,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C47C41E2C159ED0F596999E2BB454CA5 /* Products */;
+			productRefGroup = EA87EE909C2FDA100EF528BE0610CDDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A45E0C65F48FC6C2159765DD2064AE9 /* Pods-PorterStemmer2_Example */,
-				5CFBA2D82F17D931F6CFC9112839B260 /* Pods-PorterStemmer2_Tests */,
-				B21AED28B62FDDBD489397C62D32DDA6 /* PorterStemmer2 */,
+				9B25B9BA66BB4DF71887CE6EA1A27826 /* Pods-PorterStemmer2_Example_iOS */,
+				F9BB1D59B2AC23348CFBA7BB0E7C582A /* Pods-PorterStemmer2_Example_iOS_Tests */,
+				4CDC6571C8541BDD99F0A5288156250B /* Pods-PorterStemmer2_Example_OSX */,
+				BA502DB4669ADFB0EFABBF05EF89C190 /* PorterStemmer2-iOS */,
+				8C099A105698277FAF650B6606E4DB6D /* PorterStemmer2-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7ED10F3F8D746E7DA56BC285B525B02 /* Resources */ = {
+		4A026605D8D020483A453CB2F3E946E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E52B9CFBE185F62ECA6E6B33BE2939C1 /* Resources */ = {
+		52436FA216A70DF10687091DEAF69F9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E581F9824D9235B312B06C96258C0E3D /* Resources */ = {
+		580C4D910BCE4E1D6CBC2EA49A5F6765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0919881069C9C310E9A7FD49F8EA7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0DD43491A813488517DAF598D8A7C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -647,86 +903,209 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		033CC0BD4FB32D6FC1B0BFB7CD00EBB6 /* Sources */ = {
+		4C4664C5FC184D4BD97C56DA1B671546 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2F985170EEC06E810E95267A419E43 /* Pods-PorterStemmer2_Tests-dummy.m in Sources */,
+				B184F62AD2E44126658DEBEE81D8D2D6 /* Pods-PorterStemmer2_Example_OSX-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B213AAF5AB5A81137D2F39C0DDD974D /* Sources */ = {
+		5D0D3940FD26E091C1504E3E147941EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9317360FA0BA2795EF2E5AEEA439C962 /* Pods-PorterStemmer2_Example-dummy.m in Sources */,
+				D917CEB092F25B4BCDD2F5AE062404DA /* api.c in Sources */,
+				0069AE8234EA86015C498940F88637E8 /* libstemmer.c in Sources */,
+				55119E47A902EC0513AB5B01E3E4C495 /* PorterStemmer.swift in Sources */,
+				FE602ED7EA0741E81348FAD3BB268E48 /* PorterStemmer2-iOS-dummy.m in Sources */,
+				543A9CF877BC8952E617295B88A47C2D /* stem_ISO_8859_1_danish.c in Sources */,
+				1B4725F239B28DAF96841AB03A19607B /* stem_ISO_8859_1_dutch.c in Sources */,
+				9209F61853FA7E73B90F07E0CAD330BE /* stem_ISO_8859_1_english.c in Sources */,
+				83E7E0C2192DBE5FCE89B75C66B7BDC1 /* stem_ISO_8859_1_finnish.c in Sources */,
+				B5EF21D52B075FCA1188A1148F1AC1D7 /* stem_ISO_8859_1_french.c in Sources */,
+				8E8FB85D4F290CA4F8BCF9E153748AF9 /* stem_ISO_8859_1_german.c in Sources */,
+				CE0C850CFA8E146E583D5CAA3A5F5AA8 /* stem_ISO_8859_1_italian.c in Sources */,
+				F87010A4DD94F570060E628693E53E9A /* stem_ISO_8859_1_norwegian.c in Sources */,
+				AF05278A3DCD0368B3642DAC488FB8E7 /* stem_ISO_8859_1_porter.c in Sources */,
+				E30396267BA2E4927DCA5FEDB84CB9AB /* stem_ISO_8859_1_portuguese.c in Sources */,
+				0EB763AE3CFBB3D7EC26040340512EF9 /* stem_ISO_8859_1_spanish.c in Sources */,
+				4F3D8FA25233F33DE17DF15B948A1DF0 /* stem_ISO_8859_1_swedish.c in Sources */,
+				26347FF1CD82ED5122A1749E36E6580D /* stem_ISO_8859_2_hungarian.c in Sources */,
+				099FF3F672A9A5C65F07E2A527E91F58 /* stem_ISO_8859_2_romanian.c in Sources */,
+				C7C7A12D4F111B2A33F22037E535B5EA /* stem_KOI8_R_russian.c in Sources */,
+				3B8F83CD6636C8A4029239D9967ADF4E /* stem_UTF_8_danish.c in Sources */,
+				A60DA3ED6CD441FB01ADADCB129C9179 /* stem_UTF_8_dutch.c in Sources */,
+				549D50EE6EF7AA0DE88F568128206A9E /* stem_UTF_8_english.c in Sources */,
+				075C7B28859C39FD1779E206E6313D61 /* stem_UTF_8_finnish.c in Sources */,
+				EB92D18E49A5F702A3A8033255565BC5 /* stem_UTF_8_french.c in Sources */,
+				B87D786F5D13C98284E2FE59505396F4 /* stem_UTF_8_german.c in Sources */,
+				9FCE151754AE6C3CD08768E6E7710533 /* stem_UTF_8_hungarian.c in Sources */,
+				DF52582E718BACF429A36F8B05BD9C4D /* stem_UTF_8_italian.c in Sources */,
+				3F03CA819857818C4F272C92A01437B2 /* stem_UTF_8_norwegian.c in Sources */,
+				4A9D6923DF2734E15933C3D765AF0DBD /* stem_UTF_8_porter.c in Sources */,
+				8CC35B270E8C4D8819B7B7F608DBCA3E /* stem_UTF_8_portuguese.c in Sources */,
+				E8E2340E860BB6E278B1040E5BF0A231 /* stem_UTF_8_romanian.c in Sources */,
+				ED37D1F462467EA57FD96995446E32C6 /* stem_UTF_8_russian.c in Sources */,
+				3DBDAEF6A0D36DA09DECB05FD7CB0059 /* stem_UTF_8_spanish.c in Sources */,
+				43DAECE9229039D27817585FF3015F5F /* stem_UTF_8_swedish.c in Sources */,
+				A1040AD769E8436552D15FA5E0B3D148 /* stem_UTF_8_turkish.c in Sources */,
+				67E550C855E2E489BD3C4E573354A8F4 /* utilities.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D1C94D88663A03EC9F91B03C2494A01 /* Sources */ = {
+		A093A2DD463C7256C0F97C342A4DDCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F27644DFFEA316FB7914035177ABF7 /* api.c in Sources */,
-				21CC692E5D2CD50582020497152F6452 /* libstemmer.c in Sources */,
-				EC19CCF7BC3ED8CD0D03A0934E557F6E /* PorterStemmer.swift in Sources */,
-				C925C8143826F829448F9400D2E3A33A /* PorterStemmer2-dummy.m in Sources */,
-				CBB885C928F28BCB7BE77882B509F0D5 /* stem_ISO_8859_1_danish.c in Sources */,
-				8DB6A447C187226059550087A9CAD443 /* stem_ISO_8859_1_dutch.c in Sources */,
-				249E221A8EE8618F5C9B3B3D52331FC0 /* stem_ISO_8859_1_english.c in Sources */,
-				3242F2C4D22A7722F9468BEC1C37AFB6 /* stem_ISO_8859_1_finnish.c in Sources */,
-				132C9D32D3648F6837C149B7458250B0 /* stem_ISO_8859_1_french.c in Sources */,
-				FA9625532AA725EDCD186F83BE22098A /* stem_ISO_8859_1_german.c in Sources */,
-				485446770CD37D0F29563A154B4319CE /* stem_ISO_8859_1_italian.c in Sources */,
-				C410E64C3E7A74E4C29FDB0DAE8F9B38 /* stem_ISO_8859_1_norwegian.c in Sources */,
-				5006510A37D75E57E3859B7B70A98D80 /* stem_ISO_8859_1_porter.c in Sources */,
-				D86808D2E6AE14554691EF22C1028FAD /* stem_ISO_8859_1_portuguese.c in Sources */,
-				435BC47AB8BDEE807B2CD2FAA241262F /* stem_ISO_8859_1_spanish.c in Sources */,
-				140E0E7EDDD4E5E271A9C826B13A1992 /* stem_ISO_8859_1_swedish.c in Sources */,
-				DC9897BE71878BDFF52C0AB59CA06CD8 /* stem_ISO_8859_2_hungarian.c in Sources */,
-				F3F7B6CE5CD43D4D9579B83888E6D4E0 /* stem_ISO_8859_2_romanian.c in Sources */,
-				11218D2F7E226AD0F57DF1EDB9176D98 /* stem_KOI8_R_russian.c in Sources */,
-				0644F535171E9F183E5996344DD033A7 /* stem_UTF_8_danish.c in Sources */,
-				C3697AAFAFB29B897303CD436B8AB805 /* stem_UTF_8_dutch.c in Sources */,
-				4A549457BD9B6BCFC8C483F58FC512C2 /* stem_UTF_8_english.c in Sources */,
-				D250B7EEBFBBDCEF01FF2BBFC62B43C0 /* stem_UTF_8_finnish.c in Sources */,
-				A88035E0F90F4CA1B3A98387F9F48DB3 /* stem_UTF_8_french.c in Sources */,
-				76C8EFE261CF26FC00F15176EC31AB53 /* stem_UTF_8_german.c in Sources */,
-				51686BD84F74C6719D662125C4B62087 /* stem_UTF_8_hungarian.c in Sources */,
-				D1DF10FEE3BB89BB14A964F09B73B334 /* stem_UTF_8_italian.c in Sources */,
-				46FB73F0C170E94B608931A4B8AB42C0 /* stem_UTF_8_norwegian.c in Sources */,
-				83E4F7AFD14D751F60B7A8A7543112A3 /* stem_UTF_8_porter.c in Sources */,
-				ED78F0A9DAE87D62F22E2B588EB11259 /* stem_UTF_8_portuguese.c in Sources */,
-				DF36A726C8D4133784D128F470BB69B5 /* stem_UTF_8_romanian.c in Sources */,
-				906D69299172D63AB587F58DB9871DEA /* stem_UTF_8_russian.c in Sources */,
-				C95F92D49FBB5F90E695720A75FE4BE3 /* stem_UTF_8_spanish.c in Sources */,
-				A6DAE051F11C5EC7EF9F99217E4AC239 /* stem_UTF_8_swedish.c in Sources */,
-				7340D94BFC3D6888971D096DC80C0FD0 /* stem_UTF_8_turkish.c in Sources */,
-				18E22B2B73B29EDFA5ABD19D2A7447D9 /* utilities.c in Sources */,
+				E62E222FDF72884CCA579F7EE8037F07 /* Pods-PorterStemmer2_Example_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D3AEFFAD009852BC5F3B263676CB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0B972CFF6662F4067C7538C8E0B45 /* api.c in Sources */,
+				A79258CCBDF5DF17E3BD5E72F55E5AF1 /* libstemmer.c in Sources */,
+				9A84CD2E67317903CD57D9B42308F59A /* PorterStemmer.swift in Sources */,
+				8FA5104F1D52347A26CF7B293DE5555D /* PorterStemmer2-macOS-dummy.m in Sources */,
+				5CCADDCC641F3A09B5D043A18B1E4D39 /* stem_ISO_8859_1_danish.c in Sources */,
+				72BB1B7EC9648344C45D4CC79DC37566 /* stem_ISO_8859_1_dutch.c in Sources */,
+				DAE004262F2EFD4C713D3AF0FB85C640 /* stem_ISO_8859_1_english.c in Sources */,
+				BA75DC3D197B9799F315D2F874BB476F /* stem_ISO_8859_1_finnish.c in Sources */,
+				E970BB93E6C43FA914C37D139C3DD667 /* stem_ISO_8859_1_french.c in Sources */,
+				EC6B80485FCC019F44B4405ED32329DD /* stem_ISO_8859_1_german.c in Sources */,
+				5619FADBDD8181D62F35652C8772A72E /* stem_ISO_8859_1_italian.c in Sources */,
+				53A2645D4EA43579DBE8F5EC774BA3E7 /* stem_ISO_8859_1_norwegian.c in Sources */,
+				6F3A6DBA0A42FBC3AFBB3D682A7C5EC8 /* stem_ISO_8859_1_porter.c in Sources */,
+				663C53C764FD9D5A5F9D512483D627AB /* stem_ISO_8859_1_portuguese.c in Sources */,
+				5F1C415E52E4782FA45024C347A2D96B /* stem_ISO_8859_1_spanish.c in Sources */,
+				BB06763B52C1B08EEF8B2E43954FE7D1 /* stem_ISO_8859_1_swedish.c in Sources */,
+				4B1542215DE2D8BB3E9E64E20DECE106 /* stem_ISO_8859_2_hungarian.c in Sources */,
+				C6B57606A30E76EB74E26128AEBDA24E /* stem_ISO_8859_2_romanian.c in Sources */,
+				E261F0AEE0A91C3BD5202F7546A2A7DD /* stem_KOI8_R_russian.c in Sources */,
+				457957BDDA827FF36D68D50386FF667D /* stem_UTF_8_danish.c in Sources */,
+				17E2D6D0416E22D69A6769B860DB0C0B /* stem_UTF_8_dutch.c in Sources */,
+				01AF3EEE35C97126EAC89964F01A6AAA /* stem_UTF_8_english.c in Sources */,
+				3E870E238CBBF3467B576CFEB33C7811 /* stem_UTF_8_finnish.c in Sources */,
+				4C444D0A917EA2421BAC02C0BE66A8BC /* stem_UTF_8_french.c in Sources */,
+				9A792AE8BF8FBED1B43E23CE4E6A4A44 /* stem_UTF_8_german.c in Sources */,
+				D9EC20075147A5FBCA9B2CB55D574BBA /* stem_UTF_8_hungarian.c in Sources */,
+				7D77ECB2FD32E242342D15B9174C8701 /* stem_UTF_8_italian.c in Sources */,
+				E61FA622D12412D3E787FB3DF8D3BB30 /* stem_UTF_8_norwegian.c in Sources */,
+				BD651DED4303410749FF3FF7F3431CB4 /* stem_UTF_8_porter.c in Sources */,
+				2CC91E6F01D6991D848F2C8CFCC969BD /* stem_UTF_8_portuguese.c in Sources */,
+				CCE39B71AD8743A9F8364A940A50C649 /* stem_UTF_8_romanian.c in Sources */,
+				A6C46B010165D719D04B12524CB27B52 /* stem_UTF_8_russian.c in Sources */,
+				904496EDE5F4D758A2BA2CD6B0DA4D82 /* stem_UTF_8_spanish.c in Sources */,
+				F89CD897FB6012B9B29FB60D8E72CDD9 /* stem_UTF_8_swedish.c in Sources */,
+				8313FCE5B93001B525D913BE46AC33AA /* stem_UTF_8_turkish.c in Sources */,
+				E14F94FD141F0772F22950F632F77096 /* utilities.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E8538E9EF8628A201C831DCFCA78D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968444E32885261496602BBC0DFC7CF /* Pods-PorterStemmer2_Example_iOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C44D46E2BDD4BF10B03EE9254DB2C19 /* PBXTargetDependency */ = {
+		1EEA9AB26F9AB469171FD4260327A14E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PorterStemmer2_Example";
-			target = 2A45E0C65F48FC6C2159765DD2064AE9 /* Pods-PorterStemmer2_Example */;
-			targetProxy = CFDCA339B88973D0BF67434CDE21FFC9 /* PBXContainerItemProxy */;
+			name = "Pods-PorterStemmer2_Example_iOS";
+			target = 9B25B9BA66BB4DF71887CE6EA1A27826 /* Pods-PorterStemmer2_Example_iOS */;
+			targetProxy = E7292DEABE3941DD33D433DC71C306EF /* PBXContainerItemProxy */;
 		};
-		D973BE99E34593E17CC94DF553EAE923 /* PBXTargetDependency */ = {
+		A29A0F89413635E19A693A0AEADCA14A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PorterStemmer2;
-			target = B21AED28B62FDDBD489397C62D32DDA6 /* PorterStemmer2 */;
-			targetProxy = 1E9277192C98B2C2F900D483CBAFA392 /* PBXContainerItemProxy */;
+			name = "PorterStemmer2-macOS";
+			target = 8C099A105698277FAF650B6606E4DB6D /* PorterStemmer2-macOS */;
+			targetProxy = A126A60D12C37FF05436A0117DD46244 /* PBXContainerItemProxy */;
+		};
+		F776C958F6BFB663C61A5083C9EB2D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PorterStemmer2-iOS";
+			target = BA502DB4669ADFB0EFABBF05EF89C190 /* PorterStemmer2-iOS */;
+			targetProxy = 08652A074FD78FE8F980F2873B7E327B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04D8BC17195595BFA64988A3A406DC73 /* Release */ = {
+		03C4321C3050273DB4EA72451251637C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E55B2355E5C418DDC961AACFC81A1227 /* Pods-PorterStemmer2_Example.release.xcconfig */;
+			baseConfigurationReference = 0B427F261A0AF041031BA361FBD6237B /* Pods-PorterStemmer2_Example_iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS_Tests/Pods-PorterStemmer2_Example_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS_Tests/Pods-PorterStemmer2_Example_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		043307E89A4B6CFACB72B94226BE95E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728CC40AC9324C8F9D22390470E05187 /* PorterStemmer2-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS.modulemap";
+				PRODUCT_MODULE_NAME = PorterStemmer2;
+				PRODUCT_NAME = PorterStemmer2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CB24E4A9242FAAF9875FAD66CF2EFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478A28B2402C510C79112BEA9162D858 /* Pods-PorterStemmer2_Example_OSX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -742,12 +1121,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_OSX/Pods-PorterStemmer2_Example_OSX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_OSX/Pods-PorterStemmer2_Example_OSX.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -755,16 +1134,49 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		063D4D0C28E8FC038BC6EFD30A4DB603 /* Debug */ = {
+		6F15CDE140B64C35977385F4178A568B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4604E623DD3593ECCA54A2E4851642E9 /* PorterStemmer2.xcconfig */;
+			baseConfigurationReference = 2655182A31EEA90E312C14720954A3F6 /* Pods-PorterStemmer2_Example_iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS_Tests/Pods-PorterStemmer2_Example_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS_Tests/Pods-PorterStemmer2_Example_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FBAFA2BD875612AA82C40BB0E06964A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21650FD4052AD6AB4503C60338D7B146 /* PorterStemmer2-macOS.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -779,12 +1191,48 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2/PorterStemmer2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PorterStemmer2/PorterStemmer2-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/PorterStemmer2/PorterStemmer2.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS.modulemap";
+				PRODUCT_MODULE_NAME = PorterStemmer2;
+				PRODUCT_NAME = PorterStemmer2;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B96DDA79A366966B3834E37EFCB0FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21650FD4052AD6AB4503C60338D7B146 /* PorterStemmer2-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PorterStemmer2-macOS/PorterStemmer2-macOS.modulemap";
 				PRODUCT_MODULE_NAME = PorterStemmer2;
 				PRODUCT_NAME = PorterStemmer2;
 				SDKROOT = macosx;
@@ -797,45 +1245,9 @@
 			};
 			name = Debug;
 		};
-		357802F6DF3FADE255A1A814F298973F /* Release */ = {
+		D2195D4B2D37688B8CB270FD52B3E0D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4604E623DD3593ECCA54A2E4851642E9 /* PorterStemmer2.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2/PorterStemmer2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PorterStemmer2/PorterStemmer2-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/PorterStemmer2/PorterStemmer2.modulemap";
-				PRODUCT_MODULE_NAME = PorterStemmer2;
-				PRODUCT_NAME = PorterStemmer2;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3A189471EC33DE9AB52D12FDCF8CAF3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 261D048AAF7A164C9DC07EE689C1768A /* Pods-PorterStemmer2_Tests.debug.xcconfig */;
+			baseConfigurationReference = 16987F9A6BA2D5D8713808ACCA5AE5A8 /* Pods-PorterStemmer2_Example_OSX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -851,12 +1263,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Tests/Pods-PorterStemmer2_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_OSX/Pods-PorterStemmer2_Example_OSX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Tests/Pods-PorterStemmer2_Tests.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_OSX/Pods-PorterStemmer2_Example_OSX.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -864,12 +1276,179 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9A1E8097DF7777D6C8617D186943918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728CC40AC9324C8F9D22390470E05187 /* PorterStemmer2-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PorterStemmer2-iOS/PorterStemmer2-iOS.modulemap";
+				PRODUCT_MODULE_NAME = PorterStemmer2;
+				PRODUCT_NAME = PorterStemmer2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE7EB7BE1A1552E0D7D91989387E5413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994673E3CF8A121E3126E19BC7A90593 /* Pods-PorterStemmer2_Example_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS/Pods-PorterStemmer2_Example_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS/Pods-PorterStemmer2_Example_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3F0D72F7A43AD4EFFDEF3588F45E0991 /* Debug */ = {
+		FB4B3EF73053BDC05CB7A962DFDD2C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DA657AEA43051C17B4D8D71D39AF8F /* Pods-PorterStemmer2_Example_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS/Pods-PorterStemmer2_Example_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example_iOS/Pods-PorterStemmer2_Example_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC109F22A74E10C1F99A5733A9014663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDE63E5B9C63808B63D5D674CA942CBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -922,7 +1501,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -933,174 +1513,59 @@
 			};
 			name = Debug;
 		};
-		8BBB7A555391CC2F6219E51668144922 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3625C889EC7E68B56F7F19D70200434D /* Pods-PorterStemmer2_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Tests/Pods-PorterStemmer2_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Tests/Pods-PorterStemmer2_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BF3E03DA97D6B02D3389B8771F73B5F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61DCC3C5FB038AD39C257884C97C43B /* Pods-PorterStemmer2_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C9FB373ADD169F331162507A3E5856D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D3CFB93074CB9A38ABD94D7C17EFB02 /* Build configuration list for PBXNativeTarget "PorterStemmer2-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96DDA79A366966B3834E37EFCB0FE96 /* Debug */,
+				9FBAFA2BD875612AA82C40BB0E06964A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F0D72F7A43AD4EFFDEF3588F45E0991 /* Debug */,
-				C9FB373ADD169F331162507A3E5856D0 /* Release */,
+				FDE63E5B9C63808B63D5D674CA942CBD /* Debug */,
+				FC109F22A74E10C1F99A5733A9014663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E91BB59EF19A66150FA9EA470BF06C6 /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Tests" */ = {
+		3A092F939E75A07E96F349B290CB696C /* Build configuration list for PBXNativeTarget "PorterStemmer2-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A189471EC33DE9AB52D12FDCF8CAF3E /* Debug */,
-				8BBB7A555391CC2F6219E51668144922 /* Release */,
+				043307E89A4B6CFACB72B94226BE95E2 /* Debug */,
+				D9A1E8097DF7777D6C8617D186943918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59046EFB965CB5AB0DADFFBDD5167211 /* Build configuration list for PBXNativeTarget "PorterStemmer2" */ = {
+		7FA28CD46BC24CC5FD5B46FCC7CFC9FA /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				063D4D0C28E8FC038BC6EFD30A4DB603 /* Debug */,
-				357802F6DF3FADE255A1A814F298973F /* Release */,
+				6F15CDE140B64C35977385F4178A568B /* Debug */,
+				03C4321C3050273DB4EA72451251637C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5F499C47B70AA795C74214D77D3193B /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example" */ = {
+		C09AE3AA4E800F570E74CE61E0ADD62F /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF3E03DA97D6B02D3389B8771F73B5F0 /* Debug */,
-				04D8BC17195595BFA64988A3A406DC73 /* Release */,
+				4CB24E4A9242FAAF9875FAD66CF2EFFA /* Debug */,
+				D2195D4B2D37688B8CB270FD52B3E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D9F65D7A4BE86A56D00BD607F3CAF3 /* Build configuration list for PBXNativeTarget "Pods-PorterStemmer2_Example_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7EB7BE1A1552E0D7D91989387E5413 /* Debug */,
+				FB4B3EF73053BDC05CB7A962DFDD2C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

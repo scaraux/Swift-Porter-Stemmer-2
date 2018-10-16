@@ -1,0 +1,6 @@
+framework module PorterStemmer2 {
+  umbrella header "PorterStemmer2-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
