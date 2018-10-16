@@ -3,13 +3,7 @@
   
 
 [![CIStatus](https://img.shields.io/travis/scaraux/Swift-Porter-Stemmer-2.svg?style=flat)](https://travis-ci.org/scaraux/Swift-Porter-Stemmer-2)
-
-[![Version](https://img.shields.io/cocoapods/v/PorterStemmer2.svg?style=flat)](https://cocoapods.org/pods/PorterStemmer2)
-
-[![License](https://img.shields.io/cocoapods/l/PorterStemmer2.svg?style=flat)](https://cocoapods.org/pods/PorterStemmer2)
-
 [![Platform](https://img.shields.io/cocoapods/p/PorterStemmer2.svg?style=flat)](https://cocoapods.org/pods/PorterStemmer2)
-
 [![Swift 4 support](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://cocoapods.org/pods/PorterStemmer2)
 
   
