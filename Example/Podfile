@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PorterStemmer2_Example' do
+  pod 'PorterStemmer2', :path => '../'
+
+  target 'PorterStemmer2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
