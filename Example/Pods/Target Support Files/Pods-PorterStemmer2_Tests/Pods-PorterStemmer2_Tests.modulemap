@@ -1,0 +1,6 @@
+framework module Pods_PorterStemmer2_Tests {
+  umbrella header "Pods-PorterStemmer2_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

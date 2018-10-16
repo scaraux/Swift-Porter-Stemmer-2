@@ -1,0 +1,22 @@
+{
+  "name": "PorterStemmer2",
+  "version": "0.1.0",
+  "summary": "A short description of PorterStemmer2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gottingoscar@gmail.com/PorterStemmer2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gottingoscar@gmail.com": "gottingoscar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gottingoscar@gmail.com/PorterStemmer2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "PorterStemmer2/Classes/**/*"
+}

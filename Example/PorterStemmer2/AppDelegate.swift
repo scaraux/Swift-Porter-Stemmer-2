@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import PorterStemmer2
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -14,7 +15,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
-    // Insert code here to initialize your application
+    if let stemmer = PorterStemmer(withLanguage: .English) {
+        print(stemmer.stem("internalization"))
+        print(stemmer.stem("architecture"))
+        print(stemmer.stem("embroidery"))
+    }
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {
