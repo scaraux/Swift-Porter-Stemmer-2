@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		6038F46130ACA0A5BAC53116 /* Pods_PorterStemmer2_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7BE5B2CBF85683BB844DD7 /* Pods_PorterStemmer2_Example.framework */; };
 		B2BFF7852A4E3AC0FCD37B37 /* Pods_PorterStemmer2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E6F780B0EC7A392C70F978 /* Pods_PorterStemmer2_Tests.framework */; };
+		D00286FB2176529900996AD5 /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00286F92176529900996AD5 /* output.txt */; };
+		D00286FC2176529900996AD5 /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00286F92176529900996AD5 /* output.txt */; };
+		D00286FD2176529900996AD5 /* voc.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00286FA2176529900996AD5 /* voc.txt */; };
+		D00286FE2176529900996AD5 /* voc.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00286FA2176529900996AD5 /* voc.txt */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -35,6 +39,8 @@
 		9710687943C2371F754664DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE6A2C0140DE06CBE41E5CA3 /* Pods-PorterStemmer2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorterStemmer2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7F8F0BEDD2410818B0580DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D00286F92176529900996AD5 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		D00286FA2176529900996AD5 /* voc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = voc.txt; sourceTree = "<group>"; };
 		DCB114D2BFC26879045A0574 /* Pods-PorterStemmer2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorterStemmer2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorterStemmer2_Tests/Pods-PorterStemmer2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* PorterStemmer2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PorterStemmer2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 		ED83F68D20348A760038D96B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D00286F92176529900996AD5 /* output.txt */,
+				D00286FA2176529900996AD5 /* voc.txt */,
 				ED83F68E20348A760038D96B /* Tests.swift */,
 				ED83F69020348A760038D96B /* Info.plist */,
 			);
@@ -228,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED83F68020348A760038D96B /* Assets.xcassets in Resources */,
+				D00286FD2176529900996AD5 /* voc.txt in Resources */,
+				D00286FB2176529900996AD5 /* output.txt in Resources */,
 				ED83F68320348A760038D96B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00286FC2176529900996AD5 /* output.txt in Resources */,
+				D00286FE2176529900996AD5 /* voc.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +260,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PorterStemmer2/PorterStemmer2.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -257,7 +269,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PorterStemmer2_Example/Pods-PorterStemmer2_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9304FA8B8BB05E61B9055C96 /* [CP] Check Pods Manifest.lock */ = {
@@ -488,14 +500,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DBEPTECPFM;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorterStemmer2_Example.app/Contents/MacOS/PorterStemmer2_Example";
 			};
 			name = Debug;
 		};
@@ -505,14 +520,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DBEPTECPFM;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorterStemmer2_Example.app/Contents/MacOS/PorterStemmer2_Example";
 			};
 			name = Release;
 		};

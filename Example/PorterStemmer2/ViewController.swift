@@ -7,13 +7,18 @@
 //
 
 import Cocoa
+import PorterStemmer2
 
 class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    // Do any additional setup after loading the view.
+    if let stemmer = PorterStemmer(withLanguage: .English) {
+        print(stemmer.stem("internalization"))
+        print(stemmer.stem("architecture"))
+        print(stemmer.stem("embroidery"))
+    }
   }
 
   override var representedObject: Any? {

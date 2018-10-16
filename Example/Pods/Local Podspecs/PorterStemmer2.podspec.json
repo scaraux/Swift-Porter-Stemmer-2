@@ -1,18 +1,19 @@
 {
   "name": "PorterStemmer2",
   "version": "0.1.0",
-  "summary": "A short description of PorterStemmer2.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gottingoscar@gmail.com/PorterStemmer2",
+  "swift_version": "4.2",
+  "summary": "A Swift wrapper over the Porter Stemmer 2 library",
+  "description": "A Swift wrapper over the Porter Stemmer 2 stemming library, from the official C-ANSI\nlibstemmer library. This offers stemming with every language supported by the\nlibstemmer library and its algorithms.",
+  "homepage": "https://github.com/scaraux/Swift-Porter-Stemmer-2",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "gottingoscar@gmail.com": "gottingoscar@gmail.com"
+    "Oscar Gotting": "gottingoscar@gmail.com"
   },
   "source": {
-    "git": "https://github.com/gottingoscar@gmail.com/PorterStemmer2.git",
+    "git": "https://github.com/scaraux/Swift-Porter-Stemmer-2.git",
     "tag": "0.1.0"
   },
   "platforms": {
