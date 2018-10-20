@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "0588e3db9a171fab6b467e66d3ba7dca"
+build_time: [1539997469, 29116000]
+inputs:
+  "/Users/rakso/Projects/Swift-Porter-Stemmer-2/PorterStemmer2/Classes/Swift/PorterStemmer.swift": [1539996923, 0]
