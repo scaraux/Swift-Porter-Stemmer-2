@@ -1,7 +1,7 @@
 
 /* This file was generated automatically by the Snowball to ANSI C compiler */
 
-#include "header.h"
+#include "../runtime/header.h"
 
 #ifdef __cplusplus
 extern "C" {
