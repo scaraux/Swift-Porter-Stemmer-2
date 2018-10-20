@@ -12,8 +12,6 @@
 
 #import "libstemmer.h"
 #import "modules.h"
-#import "api.h"
-#import "header.h"
 #import "stem_ISO_8859_1_danish.h"
 #import "stem_ISO_8859_1_dutch.h"
 #import "stem_ISO_8859_1_english.h"
@@ -45,6 +43,8 @@
 #import "stem_UTF_8_spanish.h"
 #import "stem_UTF_8_swedish.h"
 #import "stem_UTF_8_turkish.h"
+#import "api.h"
+#import "header.h"
 
 FOUNDATION_EXPORT double PorterStemmer2VersionNumber;
 FOUNDATION_EXPORT const unsigned char PorterStemmer2VersionString[];

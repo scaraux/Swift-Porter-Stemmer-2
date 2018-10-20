@@ -10,3 +10,4 @@
 #endif
 #endif
 
+#define BUILT_AS_POD pod

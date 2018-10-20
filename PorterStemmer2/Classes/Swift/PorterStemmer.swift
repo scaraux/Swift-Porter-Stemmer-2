@@ -13,7 +13,9 @@ import Glibc
 import Darwin
 #endif
 
+#if !COCOAPODS
 import libstemmer
+#endif
 
 public enum StemmerLanguage: CustomStringConvertible {
     

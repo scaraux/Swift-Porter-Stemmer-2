@@ -288,6 +288,7 @@
 					};
 					ED83F67720348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -529,7 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PorterStemmer2_Example_iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
@@ -552,7 +553,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PorterStemmer2_Example_iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
@@ -729,10 +730,10 @@
 				DEVELOPMENT_TEAM = DBEPTECPFM;
 				INFOPLIST_FILE = PorterStemmer2_Example_OSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PorterStemmer2_Example_OSX;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Example-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -748,10 +749,10 @@
 				DEVELOPMENT_TEAM = DBEPTECPFM;
 				INFOPLIST_FILE = PorterStemmer2_Example_OSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PorterStemmer2_Example_OSX;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PorterStemmer2-Example-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

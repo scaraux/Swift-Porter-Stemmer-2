@@ -16,6 +16,7 @@
     "git": "https://github.com/scaraux/Swift-Porter-Stemmer-2.git",
     "tag": "0.1.0"
   },
+  "prefix_header_contents": "#define BUILT_AS_POD pod",
   "platforms": {
     "ios": "9.0",
     "osx": "10.10"
