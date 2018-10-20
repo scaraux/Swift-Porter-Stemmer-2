@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PorterStemmer2'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_version    = '4.2'
   s.summary          = 'A Swift wrapper over the Porter Stemmer 2 library'
 
