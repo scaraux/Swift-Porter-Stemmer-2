@@ -1,4 +1,0 @@
-module libstemmer {
-    umbrella header "/Users/rakso/Projects/Swift-Porter-Stemmer-2/PorterStemmer2/Classes/Stemmer/include/libstemmer.h"
-    export *
-}
