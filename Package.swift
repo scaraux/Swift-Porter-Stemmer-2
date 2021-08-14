@@ -22,7 +22,7 @@ let package = Package(
 
         .target(
              name: "PorterStemmer2",
-             dependencies: [],
+             dependencies: ["libstemmer"],
              path: "./PorterStemmer2/Classes/Swift"),
         
         //.testTarget(
